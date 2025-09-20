@@ -1,0 +1,87 @@
+2025-09-15 17:12:23.662 [info] 
+
+
+
+
+2025-09-15 17:12:23.662 [info] Extension host agent started.
+2025-09-15 17:12:44.464 [info] [127.0.0.1][5c5ef16d][ManagementConnection] New connection established.
+2025-09-15 17:12:44.731 [info] [127.0.0.1][7a050032][ExtensionHostConnection] New connection established.
+2025-09-15 17:12:44.814 [info] ComputeTargetPlatform: linux-x64
+2025-09-15 17:12:45.562 [info] [127.0.0.1][7a050032][ExtensionHostConnection] <1642> Launched Extension Host Process.
+2025-09-15 17:12:57.166 [info] ComputeTargetPlatform: linux-x64
+2025-09-15 17:26:42.299 [info] [127.0.0.1][5c5ef16d][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2025-09-15 17:26:42.381 [info] [127.0.0.1][7a050032][ExtensionHostConnection] <1642> Extension Host Process exited with code: 0, signal: null.
+2025-09-15 17:26:44.095 [info] [127.0.0.1][d8e32eed][ManagementConnection] New connection established.
+2025-09-15 17:26:44.299 [info] [127.0.0.1][9aabf935][ExtensionHostConnection] New connection established.
+2025-09-15 17:26:44.303 [info] [127.0.0.1][9aabf935][ExtensionHostConnection] <2059> Launched Extension Host Process.
+2025-09-15 17:27:43.128 [info] [127.0.0.1][9aabf935][ExtensionHostConnection] <2059> [0mGET /favicon.ico [33m404[0m 2.605 ms - 150[0m
+
+2025-09-15 17:27:53.732 [info] [127.0.0.1][9aabf935][ExtensionHostConnection] <2059> [0mPOST /upload [33m405[0m 0.177 ms - 0[0m
+
+2025-09-15 17:27:55.009 [info] [127.0.0.1][9aabf935][ExtensionHostConnection] <2059> [0mPOST /upload [33m405[0m 0.148 ms - 0[0m
+
+2025-09-15 17:27:55.070 [info] [127.0.0.1][9aabf935][ExtensionHostConnection] <2059> [0mPOST /upload [33m405[0m 0.389 ms - 0[0m
+
+2025-09-15 17:27:55.320 [info] [127.0.0.1][9aabf935][ExtensionHostConnection] <2059> [0mPOST /upload [33m405[0m 0.169 ms - 0[0m
+
+2025-09-15 17:27:55.537 [info] [127.0.0.1][9aabf935][ExtensionHostConnection] <2059> [0mPOST /upload [33m405[0m 0.222 ms - 0[0m
+
+2025-09-15 17:27:55.655 [info] [127.0.0.1][9aabf935][ExtensionHostConnection] <2059> [0mPOST /upload [33m405[0m 0.160 ms - 0[0m
+
+2025-09-15 17:27:55.828 [info] [127.0.0.1][9aabf935][ExtensionHostConnection] <2059> [0mPOST /upload [33m405[0m 0.436 ms - 0[0m
+
+2025-09-15 17:27:55.986 [info] [127.0.0.1][9aabf935][ExtensionHostConnection] <2059> [0mPOST /upload [33m405[0m 0.181 ms - 0[0m
+
+2025-09-15 17:27:56.238 [info] [127.0.0.1][9aabf935][ExtensionHostConnection] <2059> [0mPOST /upload [33m405[0m 0.280 ms - 0[0m
+
+2025-09-15 17:28:02.034 [info] [127.0.0.1][9aabf935][ExtensionHostConnection] <2059> [0mPOST /upload [33m405[0m 0.219 ms - 0[0m
+
+2025-09-15 17:28:08.916 [info] [127.0.0.1][9aabf935][ExtensionHostConnection] <2059> [0mPOST /upload [33m405[0m 0.148 ms - 0[0m
+
+2025-09-15 17:28:14.091 [info] [127.0.0.1][9aabf935][ExtensionHostConnection] <2059> [0mPOST /upload [33m405[0m 0.148 ms - 0[0m
+
+2025-09-15 17:28:14.226 [info] [127.0.0.1][9aabf935][ExtensionHostConnection] <2059> [0mPOST /upload [33m405[0m 0.135 ms - 0[0m
+
+2025-09-15 17:28:14.227 [info] [127.0.0.1][9aabf935][ExtensionHostConnection] <2059> [0mPOST /upload [33m405[0m 0.127 ms - 0[0m
+
+2025-09-15 17:28:16.373 [info] [127.0.0.1][9aabf935][ExtensionHostConnection] <2059> [0mPOST /upload [33m405[0m 0.120 ms - 0[0m
+
+2025-09-15 17:28:16.783 [info] [127.0.0.1][9aabf935][ExtensionHostConnection] <2059> [0mPOST /upload [33m405[0m 0.168 ms - 0[0m
+
+2025-09-15 17:28:16.901 [info] [127.0.0.1][9aabf935][ExtensionHostConnection] <2059> [0mPOST /upload [33m405[0m 0.147 ms - 0[0m
+
+2025-09-15 17:28:17.125 [info] [127.0.0.1][9aabf935][ExtensionHostConnection] <2059> [0mPOST /upload [33m405[0m 0.156 ms - 0[0m
+
+2025-09-15 17:28:17.249 [info] [127.0.0.1][9aabf935][ExtensionHostConnection] <2059> [0mPOST /upload [33m405[0m 0.205 ms - 0[0m
+
+2025-09-15 17:28:17.459 [info] [127.0.0.1][9aabf935][ExtensionHostConnection] <2059> [0mPOST /upload [33m405[0m 0.172 ms - 0[0m
+
+2025-09-15 17:28:17.696 [info] [127.0.0.1][9aabf935][ExtensionHostConnection] <2059> [0mPOST /upload [33m405[0m 0.161 ms - 0[0m
+
+2025-09-15 17:28:17.760 [info] [127.0.0.1][9aabf935][ExtensionHostConnection] <2059> [0mPOST /upload [33m405[0m 0.152 ms - 0[0m
+
+2025-09-15 17:28:18.260 [info] [127.0.0.1][9aabf935][ExtensionHostConnection] <2059> [0mPOST /upload [33m405[0m 0.129 ms - 0[0m
+
+2025-09-15 17:36:50.528 [info] [127.0.0.1][6598c7ce][ManagementConnection] New connection established.
+2025-09-15 17:36:50.774 [info] [127.0.0.1][18ac69f5][ExtensionHostConnection] New connection established.
+2025-09-15 17:36:50.780 [info] [127.0.0.1][18ac69f5][ExtensionHostConnection] <3780> Launched Extension Host Process.
+2025-09-15 17:45:01.829 [info] [127.0.0.1][9aabf935][ExtensionHostConnection] <2059> [0mPOST /upload [33m405[0m 0.271 ms - 0[0m
+
+2025-09-15 18:01:25.080 [info] [127.0.0.1][d8e32eed][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+2025-09-15 18:01:25.083 [info] [127.0.0.1][6598c7ce][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+2025-09-15 18:14:31.066 [info] [127.0.0.1][d8e32eed][ManagementConnection] Another client has connected, will shorten the wait for reconnection 5m before disposing...
+2025-09-15 18:14:31.066 [info] [127.0.0.1][6598c7ce][ManagementConnection] Another client has connected, will shorten the wait for reconnection 5m before disposing...
+2025-09-15 18:14:31.067 [info] [127.0.0.1][18ac69f5][ExtensionHostConnection] The client has reconnected.
+2025-09-15 18:14:31.217 [info] [127.0.0.1][6598c7ce][ManagementConnection] The client has reconnected.
+2025-09-15 18:14:31.531 [info] [127.0.0.1][9aabf935][ExtensionHostConnection] The client has reconnected.
+2025-09-15 18:14:31.839 [info] [127.0.0.1][d8e32eed][ManagementConnection] The client has reconnected.
+2025-09-15 18:15:05.297 [info] [127.0.0.1][6598c7ce][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+2025-09-15 18:15:05.297 [info] [127.0.0.1][d8e32eed][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+2025-09-15 18:16:18.708 [info] [127.0.0.1][d8e32eed][ManagementConnection] Another client has connected, will shorten the wait for reconnection 5m before disposing...
+2025-09-15 18:16:18.708 [info] [127.0.0.1][6598c7ce][ManagementConnection] Another client has connected, will shorten the wait for reconnection 5m before disposing...
+2025-09-15 18:16:18.709 [info] [127.0.0.1][d8e32eed][ManagementConnection] The client has reconnected.
+2025-09-15 18:16:18.798 [info] [127.0.0.1][9aabf935][ExtensionHostConnection] The client has reconnected.
+2025-09-15 18:16:18.901 [info] [127.0.0.1][6598c7ce][ManagementConnection] The client has reconnected.
+2025-09-15 18:16:19.007 [info] [127.0.0.1][18ac69f5][ExtensionHostConnection] The client has reconnected.
+2025-09-15 18:32:26.721 [info] [127.0.0.1][d8e32eed][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+2025-09-15 18:32:26.727 [info] [127.0.0.1][6598c7ce][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...

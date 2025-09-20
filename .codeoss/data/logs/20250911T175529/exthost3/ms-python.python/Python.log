@@ -1,0 +1,46 @@
+2025-09-11 18:30:30.368 [warning] Dir "/home/rahultammu71/.pixi/envs" is not watchable (directory does not exist)
+2025-09-11 18:30:30.368 [info] Starting Environment refresh
+2025-09-11 18:30:30.368 [info] > hatch env show --json
+2025-09-11 18:30:30.368 [info] cwd: .
+2025-09-11 18:30:30.368 [info] Python interpreter path: /bin/python
+2025-09-11 18:30:30.404 [info] > /bin/python -I /google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/get_output_via_markers.py /google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/interpreterInfo.py
+2025-09-11 18:30:30.410 [info] Environments refresh paths discovered: 85 milliseconds
+2025-09-11 18:30:30.457 [info] Environments refresh finished (event): 132 milliseconds
+2025-09-11 18:30:30.460 [info] Environment refresh took 136 milliseconds
+2025-09-11 18:30:30.568 [info] Starting Environment refresh
+2025-09-11 18:30:30.583 [info] Environments refresh finished (event): 15 milliseconds
+2025-09-11 18:30:30.583 [info] Environments refresh paths discovered: 15 milliseconds
+2025-09-11 18:30:30.584 [info] Environment refresh took 16 milliseconds
+2025-09-11 18:30:30.588 [info] > pyenv which python
+2025-09-11 18:30:30.589 [info] cwd: .
+2025-09-11 18:30:34.109 [info] Starting Jedi language server for rahultammu71.
+2025-09-11 18:30:37.994 [info] Running installed packages checker:  {
+  id: '/bin/python',
+  sysPrefix: '/usr',
+  envType: 'Global',
+  envName: '',
+  envPath: '',
+  path: '/bin/python',
+  architecture: 3,
+  sysVersion: '3.12.3 (main, Aug 14 2025, 17:47:21) [GCC 13.3.0]',
+  version: {
+    raw: '3.12.3',
+    major: 3,
+    minor: 12,
+    patch: 3,
+    build: [],
+    prerelease: [ 'final', '0' ]
+  },
+  displayName: 'Python 3.12.3 64-bit',
+  detailedDisplayName: 'Python 3.12.3 64-bit',
+  type: undefined
+} /google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/installed_check.py /home/rahultammu71/mcp-on-cloudrun/pyproject.toml
+2025-09-11 18:30:37.994 [info] > /bin/python /google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/installed_check.py ./mcp-on-cloudrun/pyproject.toml
+2025-09-11 18:32:51.749 [info] Discover tests for workspace name: rahultammu71 - uri: /home/rahultammu71/.codeoss/extensions/.6ea153f4-cf6d-4b11-af9f-f9b415e4906f/node_modules/bcryptjs/.vscode/settings.json
+2025-09-11 18:36:52.268 [info] Discover tests for workspace name: rahultammu71 - uri: /home/rahultammu71/app.py
+2025-09-11 18:38:20.897 [info] Discover tests for workspace name: rahultammu71 - uri: /home/rahultammu71/app.py
+2025-09-11 18:38:26.441 [info] Discover tests for workspace name: rahultammu71 - uri: /home/rahultammu71/app.py
+2025-09-11 18:39:31.327 [info] Discover tests for workspace name: rahultammu71 - uri: /home/rahultammu71/app.py
+2025-09-11 18:39:33.348 [info] Discover tests for workspace name: rahultammu71 - uri: /home/rahultammu71/app.py
+2025-09-11 18:39:50.824 [info] Discover tests for workspace name: rahultammu71 - uri: /home/rahultammu71/app.py
+2025-09-11 18:39:52.737 [info] Discover tests for workspace name: rahultammu71 - uri: /home/rahultammu71/app.py

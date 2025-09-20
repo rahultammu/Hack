@@ -1,0 +1,343 @@
+2025-09-12 17:08:25.326 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "4"
+
+2025-09-12 17:08:31.331 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "7"
+
+2025-09-12 18:19:16.867 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "45"
+
+2025-09-12 18:20:29.156 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "52"
+
+2025-09-12 18:20:46.773 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "56"
+
+2025-09-12 18:20:47.717 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "57"
+
+2025-09-12 18:20:54.956 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "63"
+
+2025-09-12 18:22:06.192 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "90"
+
+2025-09-12 18:22:06.237 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "91"
+
+2025-09-12 18:22:06.299 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "92"
+
+2025-09-12 18:22:06.301 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "93"
+
+2025-09-12 18:22:06.304 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "94"
+
+2025-09-12 18:28:41.532 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "109"
+
+2025-09-12 18:54:30.715 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "121"
+
+2025-09-12 18:54:30.719 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "122"
+
+2025-09-12 18:54:30.736 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "123"
+
+2025-09-12 18:56:35.536 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "177"
+
+2025-09-12 18:56:35.568 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "178"
+
+2025-09-12 18:56:39.349 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "187"
+
+2025-09-12 19:01:58.081 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "226"
+
+2025-09-12 19:02:16.058 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "228"
+
+2025-09-12 19:02:16.119 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "230"
+
+2025-09-12 19:02:16.120 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "229"
+
+2025-09-12 19:02:16.178 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "232"
+
+2025-09-12 19:02:16.186 [info] ERROR:pygls.protocol.json_rpc:Failed to handle request 233 textDocument/hover HoverParams(text_document=TextDocumentIdentifier(uri='file:///home/rahultammu71/app.py'), position=127:8, work_done_token=None)
+Traceback (most recent call last):
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/pygls/protocol/json_rpc.py", line 266, in _handle_request
+    self._execute_request(msg_id, handler, params)
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/pygls/protocol/json_rpc.py", line 188, in _execute_request
+    self._send_response(msg_id, handler(params))
+                                ^^^^^^^^^^^^^^^
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi_language_server/server.py", line 402, in hover
+    hover_text = jedi_utils.hover_text(
+                 ^^^^^^^^^^^^^^^^^^^^^^
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi_language_server/jedi_utils.py", line 657, in hover_text
+    if _hover_ignore(name, initialization_options):
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi_language_server/jedi_utils.py", line 638, in _hover_ignore
+    ignore_type: HoverDisableOptions = getattr(
+                                       ^^^^^^^^
+AttributeError: 'HoverDisable' object has no attribute 'namespace_'
+
+2025-09-12 19:02:16.189 [info] [Error - 7:02:16 PM] Request textDocument/hover failed.
+2025-09-12 19:02:16.189 [info]   Message: AttributeError: 'HoverDisable' object has no attribute 'namespace_'
+  Code: -32603 
+[object Object]
+2025-09-12 19:02:16.210 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "233"
+
+2025-09-12 19:02:16.225 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "234"
+
+2025-09-12 19:02:16.225 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "231"
+
+2025-09-12 19:06:02.791 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "267"
+
+2025-09-12 19:07:42.410 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "286"
+
+2025-09-12 19:07:42.411 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "288"
+
+2025-09-12 19:07:42.412 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "287"
+
+2025-09-12 19:08:20.446 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "293"
+
+2025-09-12 19:08:22.493 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "296"
+
+2025-09-12 19:08:23.550 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "297"
+
+2025-09-12 19:09:42.848 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "312"
+
+2025-09-12 19:11:12.635 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "329"
+
+2025-09-12 19:11:16.998 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "335"
+
+2025-09-12 19:11:56.890 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "342"
+
+2025-09-12 19:12:31.269 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "368"
+
+2025-09-12 19:12:37.972 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "370"
+
+2025-09-12 19:12:38.007 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "372"
+
+2025-09-12 19:12:38.009 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "373"
+
+2025-09-12 19:12:38.039 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "371"
+
+2025-09-12 19:12:40.280 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "376"
+
+2025-09-12 19:12:40.280 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "374"
+
+2025-09-12 19:12:40.281 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "375"
+
+2025-09-12 19:12:41.605 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "377"
+
+2025-09-12 19:12:41.701 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "378"
+
+2025-09-12 19:12:41.770 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "382"
+
+2025-09-12 19:12:41.776 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "383"
+
+2025-09-12 19:12:41.777 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "381"
+
+2025-09-12 19:12:41.778 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "380"
+
+2025-09-12 19:12:41.844 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "385"
+
+2025-09-12 19:12:41.879 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "384"
+
+2025-09-12 19:12:41.925 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "388"
+
+2025-09-12 19:12:46.256 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "390"
+
+2025-09-12 19:13:10.501 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "402"
+
+2025-09-12 19:13:14.724 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "405"
+
+2025-09-12 19:13:21.367 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "418"
+
+2025-09-12 19:13:25.170 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "429"
+
+2025-09-12 19:13:25.173 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "430"
+
+2025-09-12 19:13:25.179 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "431"
+
+2025-09-12 19:13:25.210 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "427"
+
+2025-09-12 19:13:32.687 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "456"
+
+2025-09-12 19:13:39.688 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "461"
+
+2025-09-12 19:13:43.958 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "462"
+
+2025-09-12 19:13:48.580 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "463"
+
+2025-09-12 19:13:49.859 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "467"
+WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "466"
+
+2025-09-12 19:13:49.862 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "465"
+
+2025-09-12 19:13:51.351 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "464"
+
+2025-09-12 19:13:51.418 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "468"
+
+2025-09-12 19:13:51.430 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "471"
+
+2025-09-12 19:13:51.432 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "470"
+
+2025-09-12 19:13:51.466 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "469"
+
+2025-09-12 19:13:51.501 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "472"
+
+2025-09-12 19:13:51.538 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "473"
+
+2025-09-12 19:13:51.571 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "474"
+
+2025-09-12 19:13:51.611 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "475"
+
+2025-09-12 19:13:51.651 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "476"
+
+2025-09-12 19:13:51.662 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "480"
+
+2025-09-12 19:14:25.674 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "488"
+
+2025-09-12 19:14:27.045 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "489"
+
+2025-09-12 19:27:31.669 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "503"
+
+2025-09-12 19:27:33.220 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "506"
+
+2025-09-12 19:27:33.222 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "507"
+
+2025-09-12 19:27:33.225 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "508"
+
+2025-09-12 19:27:34.130 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "511"
+
+2025-09-12 19:36:31.730 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "523"
+
+2025-09-12 19:36:31.772 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "525"
+
+2025-09-12 19:36:58.641 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "538"
+
+2025-09-12 19:37:04.551 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "550"
+
+2025-09-12 19:37:05.529 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "552"
+
+2025-09-12 19:37:05.532 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "553"
+
+2025-09-12 19:37:05.534 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "554"
+
+2025-09-12 19:37:05.536 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "555"
+
+2025-09-12 19:37:05.538 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "556"
+
+2025-09-12 19:37:05.544 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "557"
+
+2025-09-12 19:37:05.566 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "559"
+
+2025-09-12 19:37:05.566 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "558"
+
+2025-09-12 19:37:05.569 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "560"
+
+2025-09-12 19:37:05.657 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "561"
+
+2025-09-12 19:37:05.751 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "562"
+
+2025-09-12 19:37:05.753 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "563"
+
+2025-09-12 19:37:05.755 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "564"
+
+2025-09-12 19:37:05.846 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "565"
+
+2025-09-12 19:37:05.861 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "567"
+
+2025-09-12 19:37:10.523 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "577"
+
+2025-09-12 19:37:10.525 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "575"
+
+2025-09-12 19:37:11.609 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "579"
+
+2025-09-12 19:37:11.612 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "578"
+
+2025-09-12 19:37:12.697 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "581"
+
+2025-09-12 19:37:12.697 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "580"
+
+2025-09-12 19:37:13.763 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "584"
+
+2025-09-12 19:37:13.763 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "582"
+
+2025-09-12 19:37:14.789 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "585"
+
+2025-09-12 19:37:20.695 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "591"
+
+2025-09-12 19:37:20.756 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "593"
+
+2025-09-12 19:37:20.757 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "590"
+
+2025-09-12 19:37:20.759 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "592"
+
+2025-09-12 19:37:21.838 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "595"
+
+2025-09-12 19:37:21.900 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "594"
+
+2025-09-12 19:37:21.902 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "598"
+
+2025-09-12 19:37:21.905 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "599"
+
+2025-09-12 19:37:21.936 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "602"
+
+2025-09-12 19:37:21.937 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "596"
+
+2025-09-12 19:37:21.970 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "604"
+
+2025-09-12 19:37:26.633 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "624"
+
+2025-09-12 19:37:30.751 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "636"
+
+2025-09-12 19:37:31.241 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "638"
+
+2025-09-12 19:42:40.918 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "652"
+
+2025-09-12 19:42:41.925 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "653"
+
+2025-09-12 19:43:41.431 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "661"
+
+2025-09-12 19:44:32.591 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "683"
+
+2025-09-12 19:44:32.592 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "684"
+
+2025-09-12 19:44:33.712 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "686"
+
+2025-09-12 19:44:33.713 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "685"
+
+2025-09-12 19:44:33.715 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "687"
+
+2025-09-12 19:44:34.877 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "689"
+
+2025-09-12 19:44:34.879 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "690"
+
+2025-09-12 19:44:35.926 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "693"
+
+2025-09-12 19:44:35.926 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "692"
+
+2025-09-12 19:44:35.963 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "694"
+
+2025-09-12 19:44:37.066 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "696"
+
+2025-09-12 19:44:37.066 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "695"
+
+2025-09-12 19:44:37.068 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "697"
+
+2025-09-12 19:44:38.250 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "699"
+
+2025-09-12 19:44:38.250 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "698"
+
+2025-09-12 19:44:38.253 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "700"
+
+2025-09-12 19:44:39.333 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "701"
+
+2025-09-12 19:47:16.624 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "717"
+
+2025-09-12 19:47:16.637 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "718"
+
+2025-09-12 19:47:16.683 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "720"
+
+2025-09-12 19:47:16.685 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "721"
+
+2025-09-12 19:47:16.689 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "722"
+
+2025-09-12 19:49:59.274 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "787"
+
+2025-09-12 19:49:59.280 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "788"
+
+2025-09-12 19:50:57.258 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "802"
+
+2025-09-12 19:50:57.258 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "801"
+
+2025-09-12 19:50:57.267 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "803"
+
+2025-09-12 19:55:29.442 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "810"
+

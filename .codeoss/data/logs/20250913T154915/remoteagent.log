@@ -1,0 +1,32 @@
+2025-09-13 15:49:16.118 [info] 
+
+
+
+
+2025-09-13 15:49:16.185 [info] Extension host agent started.
+2025-09-13 15:49:25.305 [info] [127.0.0.1][6505bf74][ManagementConnection] New connection established.
+2025-09-13 15:49:25.411 [info] [127.0.0.1][4973a042][ExtensionHostConnection] New connection established.
+2025-09-13 15:49:25.557 [info] ComputeTargetPlatform: linux-x64
+2025-09-13 15:49:26.195 [info] [127.0.0.1][4973a042][ExtensionHostConnection] <2373> Launched Extension Host Process.
+2025-09-13 15:49:29.579 [info] ComputeTargetPlatform: linux-x64
+2025-09-13 15:50:24.378 [info] [127.0.0.1][4973a042][ExtensionHostConnection] <2373> [0mPOST /upload [33m405[0m 0.634 ms - 0[0m
+
+2025-09-13 15:50:25.074 [info] [127.0.0.1][4973a042][ExtensionHostConnection] <2373> [0mPOST /upload [33m405[0m 0.235 ms - 0[0m
+
+2025-09-13 15:50:40.053 [info] [127.0.0.1][4973a042][ExtensionHostConnection] <2373> [0mPOST /upload [33m405[0m 0.257 ms - 0[0m
+
+2025-09-13 15:50:40.056 [info] [127.0.0.1][4973a042][ExtensionHostConnection] <2373> [0mPOST /upload [33m405[0m 0.203 ms - 0[0m
+
+2025-09-13 15:50:40.061 [info] [127.0.0.1][4973a042][ExtensionHostConnection] <2373> [0mPOST /upload [33m405[0m 0.194 ms - 0[0m
+
+2025-09-13 15:50:40.067 [info] [127.0.0.1][4973a042][ExtensionHostConnection] <2373> [0mPOST /upload [33m405[0m 0.226 ms - 0[0m
+
+2025-09-13 15:50:40.070 [info] [127.0.0.1][4973a042][ExtensionHostConnection] <2373> [0mPOST /upload [33m405[0m 0.088 ms - 0[0m
+
+2025-09-13 15:50:40.073 [info] [127.0.0.1][4973a042][ExtensionHostConnection] <2373> [0mPOST /upload [33m405[0m 0.159 ms - 0[0m
+
+2025-09-13 15:50:40.133 [info] [127.0.0.1][4973a042][ExtensionHostConnection] <2373> [0mPOST /upload [33m405[0m 0.180 ms - 0[0m
+
+2025-09-13 15:50:40.135 [info] [127.0.0.1][4973a042][ExtensionHostConnection] <2373> [0mPOST /upload [33m405[0m 0.183 ms - 0[0m
+
+2025-09-13 15:55:50.539 [info] [127.0.0.1][6505bf74][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...

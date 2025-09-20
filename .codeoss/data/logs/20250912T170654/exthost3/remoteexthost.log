@@ -1,0 +1,210 @@
+2025-09-12 19:34:03.497 [info] Extension host with pid 11346 started
+2025-09-12 19:34:03.499 [info] Lock '/home/rahultammu71/.codeoss/data/User/workspaceStorage/-5c281d5/vscode.lock': Lock acquired.
+2025-09-12 19:34:03.745 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-09-12 19:34:03.747 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-09-12 19:34:03.747 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-09-12 19:34:03.748 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-09-12 19:34:04.260 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2025-09-12 19:34:04.321 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2025-09-12 19:34:04.321 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-09-12 19:34:06.065 [info] ExtensionService#_doActivateExtension vscjava.vscode-maven, startup: true, activationEvent: 'workspaceContains:**/pom.xml'
+2025-09-12 19:34:11.265 [info] Not activating extension 'redhat.java': Timed out while searching for 'workspaceContains' pattern */pom.xml,*/build.gradle,*/settings.gradle,*/build.gradle.kts,*/settings.gradle.kts,*/.classpath
+2025-09-12 19:34:11.265 [info] Not activating extension 'vscjava.vscode-java-dependency': Timed out while searching for 'workspaceContains' pattern */pom.xml,*/build.gradle,*/settings.gradle,*/build.gradle.kts,*/settings.gradle.kts,*/.classpath
+2025-09-12 19:34:11.265 [info] Not activating extension 'vscjava.vscode-java-test': Timed out while searching for 'workspaceContains' pattern */pom.xml,*/build.gradle,*/settings.gradle,*/build.gradle.kts,*/settings.gradle.kts,*/.classpath
+2025-09-12 19:34:11.389 [info] Eager extensions activated
+2025-09-12 19:34:11.389 [info] ExtensionService#_doActivateExtension EditorConfig.EditorConfig, startup: false, activationEvent: 'onStartupFinished'
+2025-09-12 19:34:11.390 [info] ExtensionService#_doActivateExtension google.cloud-shell, startup: false, activationEvent: 'onStartupFinished'
+2025-09-12 19:34:11.390 [info] ExtensionService#_doActivateExtension google.geminicodeassist, startup: false, activationEvent: 'onStartupFinished', root cause: googlecloudtools.cloudcode
+2025-09-12 19:34:11.391 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-09-12 19:34:11.391 [info] ExtensionService#_doActivateExtension google.gemini-cli-vscode-ide-companion, startup: false, activationEvent: 'onStartupFinished'
+2025-09-12 19:34:11.392 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-09-12 19:34:11.392 [info] ExtensionService#_doActivateExtension ritwickdey.LiveServer, startup: false, activationEvent: 'onStartupFinished'
+2025-09-12 19:34:13.804 [info] ExtensionService#_doActivateExtension googlecloudtools.cloudcode, startup: false, activationEvent: 'onStartupFinished'
+2025-09-12 19:34:15.983 [error] onWillSaveTextDocument-listener from extension 'EditorConfig.EditorConfig' threw ERROR
+2025-09-12 19:34:15.990 [error] Error: timeout
+    at Timeout._onTimeout (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:147:103175)
+    at listOnTimeout (node:internal/timers:588:17)
+    at processTimers (node:internal/timers:523:7)
+2025-09-12 19:37:51.610 [error] EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/rahultammu71/.codeoss/data/User/History/-61896a12/5Ixq.py'
+    at Function.e (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:120:18064)
+    at Object.stat (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:120:16011)
+    at t.ChatViewProvider.uri [as addFileOrFolder] (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/gemini_code_assist/src/ai-companion/chat/chat_view_provider.ts:221:11)
+    at ud.value (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/gemini_code_assist/src/ai-companion/chat/chat_view_provider.ts:206:52)
+2025-09-12 19:37:51.616 [error] EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/rahultammu71/.codeoss/data/User/History/-61896a12/5Ixq.py'
+    at Function.e (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:120:18064)
+    at Object.stat (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:120:16011)
+    at t.ChatViewProvider.uri [as addFileOrFolder] (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/gemini_code_assist/src/ai-companion/chat/chat_view_provider.ts:221:11)
+    at ud.value (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/gemini_code_assist/src/ai-companion/chat/chat_view_provider.ts:206:52)
+2025-09-12 19:37:51.619 [error] EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/rahultammu71/.codeoss/data/User/History/-61896a12/gIuO.py'
+    at Function.e (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:120:18064)
+    at Object.stat (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:120:16011)
+    at t.ChatViewProvider.uri [as addFileOrFolder] (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/gemini_code_assist/src/ai-companion/chat/chat_view_provider.ts:221:11)
+    at ud.value (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/gemini_code_assist/src/ai-companion/chat/chat_view_provider.ts:206:52)
+2025-09-12 19:37:51.620 [error] EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/rahultammu71/.codeoss/data/User/History/-61896a12/gIuO.py'
+    at Function.e (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:120:18064)
+    at Object.stat (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:120:16011)
+    at t.ChatViewProvider.uri [as addFileOrFolder] (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/gemini_code_assist/src/ai-companion/chat/chat_view_provider.ts:221:11)
+    at ud.value (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/gemini_code_assist/src/ai-companion/chat/chat_view_provider.ts:206:52)
+2025-09-12 19:37:51.623 [error] EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/rahultammu71/.cache/jedi/CPython-312-33/4305da1ea25c27fce08bd14001b76fd54fe42a0724bbd5168c76680a56eda5be-33966ba0ad428d561d36db8d9d23d3351dc60485bce630a7d75d1651d9469bf6.pkl'
+    at Function.e (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:120:18064)
+    at Object.stat (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:120:16011)
+    at t.ChatViewProvider.uri [as addFileOrFolder] (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/gemini_code_assist/src/ai-companion/chat/chat_view_provider.ts:221:11)
+    at ud.value (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/gemini_code_assist/src/ai-companion/chat/chat_view_provider.ts:206:52)
+2025-09-12 19:37:51.626 [error] EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/rahultammu71/.cache/jedi/CPython-312-33/4305da1ea25c27fce08bd14001b76fd54fe42a0724bbd5168c76680a56eda5be-6b8c824dc35f8a5c1f0cb115943604393499abfc83033e143dd830a1c782e1aa.pkl'
+    at Function.e (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:120:18064)
+    at Object.stat (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:120:16011)
+    at t.ChatViewProvider.uri [as addFileOrFolder] (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/gemini_code_assist/src/ai-companion/chat/chat_view_provider.ts:221:11)
+    at ud.value (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/gemini_code_assist/src/ai-companion/chat/chat_view_provider.ts:206:52)
+2025-09-12 19:37:51.629 [error] EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/rahultammu71/.cache/jedi/CPython-312-33/4305da1ea25c27fce08bd14001b76fd54fe42a0724bbd5168c76680a56eda5be-33966ba0ad428d561d36db8d9d23d3351dc60485bce630a7d75d1651d9469bf6.pkl'
+    at Function.e (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:120:18064)
+    at Object.stat (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:120:16011)
+    at t.ChatViewProvider.uri [as addFileOrFolder] (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/gemini_code_assist/src/ai-companion/chat/chat_view_provider.ts:221:11)
+    at ud.value (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/gemini_code_assist/src/ai-companion/chat/chat_view_provider.ts:206:52)
+2025-09-12 19:37:51.629 [error] EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/rahultammu71/.cache/jedi/CPython-312-33/4305da1ea25c27fce08bd14001b76fd54fe42a0724bbd5168c76680a56eda5be-6b8c824dc35f8a5c1f0cb115943604393499abfc83033e143dd830a1c782e1aa.pkl'
+    at Function.e (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:120:18064)
+    at Object.stat (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:120:16011)
+    at t.ChatViewProvider.uri [as addFileOrFolder] (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/gemini_code_assist/src/ai-companion/chat/chat_view_provider.ts:221:11)
+    at ud.value (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/gemini_code_assist/src/ai-companion/chat/chat_view_provider.ts:206:52)
+2025-09-12 19:37:51.632 [error] EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/rahultammu71/.codeoss/data/User/History/-61896a12/4v87.py'
+    at Function.e (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:120:18064)
+    at Object.stat (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:120:16011)
+    at t.ChatViewProvider.uri [as addFileOrFolder] (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/gemini_code_assist/src/ai-companion/chat/chat_view_provider.ts:221:11)
+    at ud.value (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/gemini_code_assist/src/ai-companion/chat/chat_view_provider.ts:206:52)
+2025-09-12 19:37:51.632 [error] EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/rahultammu71/.codeoss/data/User/History/-61896a12/4v87.py'
+    at Function.e (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:120:18064)
+    at Object.stat (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:120:16011)
+    at t.ChatViewProvider.uri [as addFileOrFolder] (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/gemini_code_assist/src/ai-companion/chat/chat_view_provider.ts:221:11)
+    at ud.value (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/gemini_code_assist/src/ai-companion/chat/chat_view_provider.ts:206:52)
+2025-09-12 19:37:56.365 [error] EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/rahultammu71/.cache/jedi/CPython-312-33/4305da1ea25c27fce08bd14001b76fd54fe42a0724bbd5168c76680a56eda5be-1f079d5838e2becac4b00e7173ab2e2167308d11cbf9be38272b17adb6f5f20e.pkl'
+    at Function.e (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:120:18064)
+    at Object.stat (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:120:16011)
+    at t.ChatViewProvider.uri [as addFileOrFolder] (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/gemini_code_assist/src/ai-companion/chat/chat_view_provider.ts:221:11)
+    at ud.value (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/gemini_code_assist/src/ai-companion/chat/chat_view_provider.ts:206:52)
+2025-09-12 19:37:56.368 [error] EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/rahultammu71/.cache/jedi/CPython-312-33/4305da1ea25c27fce08bd14001b76fd54fe42a0724bbd5168c76680a56eda5be-1f079d5838e2becac4b00e7173ab2e2167308d11cbf9be38272b17adb6f5f20e.pkl'
+    at Function.e (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:120:18064)
+    at Object.stat (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:120:16011)
+    at t.ChatViewProvider.uri [as addFileOrFolder] (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/gemini_code_assist/src/ai-companion/chat/chat_view_provider.ts:221:11)
+    at ud.value (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/gemini_code_assist/src/ai-companion/chat/chat_view_provider.ts:206:52)
+2025-09-12 19:37:56.370 [error] EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/rahultammu71/.codeoss/data/User/History/-61896a12/vZvS.py'
+    at Function.e (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:120:18064)
+    at Object.stat (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:120:16011)
+    at t.ChatViewProvider.uri [as addFileOrFolder] (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/gemini_code_assist/src/ai-companion/chat/chat_view_provider.ts:221:11)
+    at ud.value (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/gemini_code_assist/src/ai-companion/chat/chat_view_provider.ts:206:52)
+2025-09-12 19:37:56.372 [error] EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/rahultammu71/.codeoss/data/User/History/-61896a12/vZvS.py'
+    at Function.e (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:120:18064)
+    at Object.stat (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:120:16011)
+    at t.ChatViewProvider.uri [as addFileOrFolder] (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/gemini_code_assist/src/ai-companion/chat/chat_view_provider.ts:221:11)
+    at ud.value (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/gemini_code_assist/src/ai-companion/chat/chat_view_provider.ts:206:52)
+2025-09-12 19:37:56.373 [error] EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/rahultammu71/.cache/jedi/CPython-312-33/4305da1ea25c27fce08bd14001b76fd54fe42a0724bbd5168c76680a56eda5be-69083c25f1c8081f5b44aa90dbb15a30a1782918f59cf0a5178f7c334bcf7e10.pkl'
+    at Function.e (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:120:18064)
+    at Object.stat (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:120:16011)
+    at t.ChatViewProvider.uri [as addFileOrFolder] (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/gemini_code_assist/src/ai-companion/chat/chat_view_provider.ts:221:11)
+    at ud.value (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/gemini_code_assist/src/ai-companion/chat/chat_view_provider.ts:206:52)
+2025-09-12 19:37:56.375 [error] EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/rahultammu71/.cache/jedi/CPython-312-33/4305da1ea25c27fce08bd14001b76fd54fe42a0724bbd5168c76680a56eda5be-69083c25f1c8081f5b44aa90dbb15a30a1782918f59cf0a5178f7c334bcf7e10.pkl'
+    at Function.e (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:120:18064)
+    at Object.stat (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:120:16011)
+    at t.ChatViewProvider.uri [as addFileOrFolder] (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/gemini_code_assist/src/ai-companion/chat/chat_view_provider.ts:221:11)
+    at ud.value (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/gemini_code_assist/src/ai-companion/chat/chat_view_provider.ts:206:52)
+2025-09-12 19:37:56.376 [error] EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/rahultammu71/.cache/jedi/CPython-312-33/4305da1ea25c27fce08bd14001b76fd54fe42a0724bbd5168c76680a56eda5be-2a29080de892d5ef33fe2ebf6ae98346eaea0549c144244540eb3185366e2a4e.pkl'
+    at Function.e (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:120:18064)
+    at Object.stat (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:120:16011)
+    at t.ChatViewProvider.uri [as addFileOrFolder] (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/gemini_code_assist/src/ai-companion/chat/chat_view_provider.ts:221:11)
+    at ud.value (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/gemini_code_assist/src/ai-companion/chat/chat_view_provider.ts:206:52)
+2025-09-12 19:37:56.378 [error] EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/rahultammu71/.cache/jedi/CPython-312-33/4305da1ea25c27fce08bd14001b76fd54fe42a0724bbd5168c76680a56eda5be-2a29080de892d5ef33fe2ebf6ae98346eaea0549c144244540eb3185366e2a4e.pkl'
+    at Function.e (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:120:18064)
+    at Object.stat (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:120:16011)
+    at t.ChatViewProvider.uri [as addFileOrFolder] (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/gemini_code_assist/src/ai-companion/chat/chat_view_provider.ts:221:11)
+    at ud.value (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/gemini_code_assist/src/ai-companion/chat/chat_view_provider.ts:206:52)
+2025-09-12 19:37:56.380 [error] EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/rahultammu71/.cache/jedi/CPython-312-33/4305da1ea25c27fce08bd14001b76fd54fe42a0724bbd5168c76680a56eda5be-56678e2df1d5850c00ed55e8d706b0614a73061d4999628fbee8a244bce94d90.pkl'
+    at Function.e (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:120:18064)
+    at Object.stat (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:120:16011)
+    at t.ChatViewProvider.uri [as addFileOrFolder] (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/gemini_code_assist/src/ai-companion/chat/chat_view_provider.ts:221:11)
+    at ud.value (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/gemini_code_assist/src/ai-companion/chat/chat_view_provider.ts:206:52)
+2025-09-12 19:37:56.381 [error] EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/rahultammu71/.cache/jedi/CPython-312-33/4305da1ea25c27fce08bd14001b76fd54fe42a0724bbd5168c76680a56eda5be-56678e2df1d5850c00ed55e8d706b0614a73061d4999628fbee8a244bce94d90.pkl'
+    at Function.e (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:120:18064)
+    at Object.stat (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:120:16011)
+    at t.ChatViewProvider.uri [as addFileOrFolder] (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/gemini_code_assist/src/ai-companion/chat/chat_view_provider.ts:221:11)
+    at ud.value (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/gemini_code_assist/src/ai-companion/chat/chat_view_provider.ts:206:52)
+2025-09-12 19:37:56.383 [error] EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/rahultammu71/.cache/jedi/CPython-312-33/4305da1ea25c27fce08bd14001b76fd54fe42a0724bbd5168c76680a56eda5be-77c591293765fd0d7d9887b758ff9ea209953c5a84ea5b9d8d32b824c03221cb.pkl'
+    at Function.e (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:120:18064)
+    at Object.stat (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:120:16011)
+    at t.ChatViewProvider.uri [as addFileOrFolder] (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/gemini_code_assist/src/ai-companion/chat/chat_view_provider.ts:221:11)
+    at ud.value (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/gemini_code_assist/src/ai-companion/chat/chat_view_provider.ts:206:52)
+2025-09-12 19:37:56.384 [error] EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/rahultammu71/.cache/jedi/CPython-312-33/4305da1ea25c27fce08bd14001b76fd54fe42a0724bbd5168c76680a56eda5be-77c591293765fd0d7d9887b758ff9ea209953c5a84ea5b9d8d32b824c03221cb.pkl'
+    at Function.e (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:120:18064)
+    at Object.stat (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:120:16011)
+    at t.ChatViewProvider.uri [as addFileOrFolder] (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/gemini_code_assist/src/ai-companion/chat/chat_view_provider.ts:221:11)
+    at ud.value (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/gemini_code_assist/src/ai-companion/chat/chat_view_provider.ts:206:52)
+2025-09-12 19:37:56.388 [error] EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/rahultammu71/.codeoss/data/User/History/-61896a12/J3Yn.py'
+    at Function.e (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:120:18064)
+    at Object.stat (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:120:16011)
+    at t.ChatViewProvider.uri [as addFileOrFolder] (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/gemini_code_assist/src/ai-companion/chat/chat_view_provider.ts:221:11)
+    at ud.value (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/gemini_code_assist/src/ai-companion/chat/chat_view_provider.ts:206:52)
+2025-09-12 19:37:56.388 [error] EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/rahultammu71/.codeoss/data/User/History/-61896a12/J3Yn.py'
+    at Function.e (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:120:18064)
+    at Object.stat (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:120:16011)
+    at t.ChatViewProvider.uri [as addFileOrFolder] (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/gemini_code_assist/src/ai-companion/chat/chat_view_provider.ts:221:11)
+    at ud.value (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/gemini_code_assist/src/ai-companion/chat/chat_view_provider.ts:206:52)
+2025-09-12 19:37:56.389 [error] EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/rahultammu71/.cache/jedi/CPython-312-33/4305da1ea25c27fce08bd14001b76fd54fe42a0724bbd5168c76680a56eda5be-ebc0ab57d398b5cf75a2a938ea30cd6eaf9a6f9afc71bc28f23870ef07878ee1.pkl'
+    at Function.e (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:120:18064)
+    at Object.stat (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:120:16011)
+    at t.ChatViewProvider.uri [as addFileOrFolder] (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/gemini_code_assist/src/ai-companion/chat/chat_view_provider.ts:221:11)
+    at ud.value (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/gemini_code_assist/src/ai-companion/chat/chat_view_provider.ts:206:52)
+2025-09-12 19:37:56.391 [error] EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/rahultammu71/.cache/jedi/CPython-312-33/4305da1ea25c27fce08bd14001b76fd54fe42a0724bbd5168c76680a56eda5be-ebc0ab57d398b5cf75a2a938ea30cd6eaf9a6f9afc71bc28f23870ef07878ee1.pkl'
+    at Function.e (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:120:18064)
+    at Object.stat (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:120:16011)
+    at t.ChatViewProvider.uri [as addFileOrFolder] (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/gemini_code_assist/src/ai-companion/chat/chat_view_provider.ts:221:11)
+    at ud.value (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/gemini_code_assist/src/ai-companion/chat/chat_view_provider.ts:206:52)
+2025-09-12 19:37:56.394 [error] EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/rahultammu71/.cache/jedi/CPython-312-33/4305da1ea25c27fce08bd14001b76fd54fe42a0724bbd5168c76680a56eda5be-7c1f4ddbf3ba52eead1ef84d3ac0485634b0ec4c4bb25d4a8e1561263db6872f.pkl'
+    at Function.e (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:120:18064)
+    at Object.stat (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:120:16011)
+    at t.ChatViewProvider.uri [as addFileOrFolder] (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/gemini_code_assist/src/ai-companion/chat/chat_view_provider.ts:221:11)
+    at ud.value (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/gemini_code_assist/src/ai-companion/chat/chat_view_provider.ts:206:52)
+2025-09-12 19:37:56.398 [error] EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/rahultammu71/.cache/jedi/CPython-312-33/4305da1ea25c27fce08bd14001b76fd54fe42a0724bbd5168c76680a56eda5be-7c1f4ddbf3ba52eead1ef84d3ac0485634b0ec4c4bb25d4a8e1561263db6872f.pkl'
+    at Function.e (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:120:18064)
+    at Object.stat (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:120:16011)
+    at t.ChatViewProvider.uri [as addFileOrFolder] (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/gemini_code_assist/src/ai-companion/chat/chat_view_provider.ts:221:11)
+    at ud.value (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/gemini_code_assist/src/ai-companion/chat/chat_view_provider.ts:206:52)
+2025-09-12 19:37:56.398 [error] EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/rahultammu71/.cache/jedi/CPython-312-33/4305da1ea25c27fce08bd14001b76fd54fe42a0724bbd5168c76680a56eda5be-a028ffa00d6f5879704686c29fefdf47034024b55b2248011b8614c7d5911d70.pkl'
+    at Function.e (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:120:18064)
+    at Object.stat (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:120:16011)
+    at t.ChatViewProvider.uri [as addFileOrFolder] (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/gemini_code_assist/src/ai-companion/chat/chat_view_provider.ts:221:11)
+    at ud.value (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/gemini_code_assist/src/ai-companion/chat/chat_view_provider.ts:206:52)
+2025-09-12 19:37:56.402 [error] EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/rahultammu71/.cache/jedi/CPython-312-33/4305da1ea25c27fce08bd14001b76fd54fe42a0724bbd5168c76680a56eda5be-a028ffa00d6f5879704686c29fefdf47034024b55b2248011b8614c7d5911d70.pkl'
+    at Function.e (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:120:18064)
+    at Object.stat (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:120:16011)
+    at t.ChatViewProvider.uri [as addFileOrFolder] (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/gemini_code_assist/src/ai-companion/chat/chat_view_provider.ts:221:11)
+    at ud.value (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/gemini_code_assist/src/ai-companion/chat/chat_view_provider.ts:206:52)
+2025-09-12 19:37:56.402 [error] EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/rahultammu71/.codeoss/data/User/History/-61896a12/6hxP.py'
+    at Function.e (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:120:18064)
+    at Object.stat (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:120:16011)
+    at t.ChatViewProvider.uri [as addFileOrFolder] (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/gemini_code_assist/src/ai-companion/chat/chat_view_provider.ts:221:11)
+    at ud.value (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/gemini_code_assist/src/ai-companion/chat/chat_view_provider.ts:206:52)
+2025-09-12 19:37:56.406 [error] EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/rahultammu71/.codeoss/data/User/History/-61896a12/6hxP.py'
+    at Function.e (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:120:18064)
+    at Object.stat (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:120:16011)
+    at t.ChatViewProvider.uri [as addFileOrFolder] (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/gemini_code_assist/src/ai-companion/chat/chat_view_provider.ts:221:11)
+    at ud.value (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/gemini_code_assist/src/ai-companion/chat/chat_view_provider.ts:206:52)
+2025-09-12 19:37:56.406 [error] EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/rahultammu71/.cache/jedi/CPython-312-33/4305da1ea25c27fce08bd14001b76fd54fe42a0724bbd5168c76680a56eda5be-b2229734d972cd23a30c1e3419d880363badba985125b2a3fed8616b5cffe49e.pkl'
+    at Function.e (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:120:18064)
+    at Object.stat (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:120:16011)
+    at t.ChatViewProvider.uri [as addFileOrFolder] (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/gemini_code_assist/src/ai-companion/chat/chat_view_provider.ts:221:11)
+    at ud.value (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/gemini_code_assist/src/ai-companion/chat/chat_view_provider.ts:206:52)
+2025-09-12 19:37:56.408 [error] EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/rahultammu71/.cache/jedi/CPython-312-33/4305da1ea25c27fce08bd14001b76fd54fe42a0724bbd5168c76680a56eda5be-b2229734d972cd23a30c1e3419d880363badba985125b2a3fed8616b5cffe49e.pkl'
+    at Function.e (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:120:18064)
+    at Object.stat (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:120:16011)
+    at t.ChatViewProvider.uri [as addFileOrFolder] (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/gemini_code_assist/src/ai-companion/chat/chat_view_provider.ts:221:11)
+    at ud.value (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/gemini_code_assist/src/ai-companion/chat/chat_view_provider.ts:206:52)
+2025-09-12 19:37:56.409 [error] EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/rahultammu71/.codeoss/data/User/History/-61896a12/rCAq.py'
+    at Function.e (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:120:18064)
+    at Object.stat (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:120:16011)
+    at t.ChatViewProvider.uri [as addFileOrFolder] (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/gemini_code_assist/src/ai-companion/chat/chat_view_provider.ts:221:11)
+    at ud.value (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/gemini_code_assist/src/ai-companion/chat/chat_view_provider.ts:206:52)
+2025-09-12 19:37:56.412 [error] EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/rahultammu71/.codeoss/data/User/History/-61896a12/rCAq.py'
+    at Function.e (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:120:18064)
+    at Object.stat (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:120:16011)
+    at t.ChatViewProvider.uri [as addFileOrFolder] (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/gemini_code_assist/src/ai-companion/chat/chat_view_provider.ts:221:11)
+    at ud.value (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/gemini_code_assist/src/ai-companion/chat/chat_view_provider.ts:206:52)
+2025-09-12 19:37:56.840 [info] Extension host terminating: received terminate message from renderer
+2025-09-12 19:37:56.841 [info] Lock '/home/rahultammu71/.codeoss/data/User/workspaceStorage/-5c281d5/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+2025-09-12 19:37:57.001 [info] Extension host with pid 11346 exiting with code 0

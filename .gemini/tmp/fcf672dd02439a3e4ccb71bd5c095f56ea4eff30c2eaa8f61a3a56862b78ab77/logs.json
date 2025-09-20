@@ -1,0 +1,44 @@
+[
+  {
+    "sessionId": "efd5c21a-6203-45bc-8908-d6f76d77480a",
+    "messageId": 0,
+    "type": "user",
+    "message": "/mcp",
+    "timestamp": "2025-09-10T20:24:53.207Z"
+  },
+  {
+    "sessionId": "efd5c21a-6203-45bc-8908-d6f76d77480a",
+    "messageId": 1,
+    "type": "user",
+    "message": "Where can I find penguins?",
+    "timestamp": "2025-09-10T20:25:11.171Z"
+  },
+  {
+    "sessionId": "efd5c21a-6203-45bc-8908-d6f76d77480a",
+    "messageId": 2,
+    "type": "user",
+    "message": "quit",
+    "timestamp": "2025-09-10T20:29:21.930Z"
+  },
+  {
+    "sessionId": "efd5c21a-6203-45bc-8908-d6f76d77480a",
+    "messageId": 3,
+    "type": "user",
+    "message": "hi",
+    "timestamp": "2025-09-10T20:29:34.120Z"
+  },
+  {
+    "sessionId": "efd5c21a-6203-45bc-8908-d6f76d77480a",
+    "messageId": 4,
+    "type": "user",
+    "message": "how can i save this progress, like next time i want to resume from this",
+    "timestamp": "2025-09-10T20:30:07.712Z"
+  },
+  {
+    "sessionId": "efd5c21a-6203-45bc-8908-d6f76d77480a",
+    "messageId": 5,
+    "type": "user",
+    "message": "/quit",
+    "timestamp": "2025-09-10T20:31:06.849Z"
+  }
+]

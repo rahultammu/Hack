@@ -1,0 +1,7 @@
+2025-09-13 06:57:48.595 [warning] Dir "/home/rahultammu71/.pixi/envs" is not watchable (directory does not exist)
+2025-09-13 06:57:48.705 [info] Python interpreter path: /bin/python
+2025-09-13 06:57:48.828 [info] > pyenv which python
+2025-09-13 06:57:48.828 [info] cwd: .
+2025-09-13 06:57:50.218 [info] Starting Jedi language server for rahultammu71.
+2025-09-13 07:03:10.294 [info] Discover tests for workspace name: undefined - uri: /User/settings.json
+2025-09-13 07:05:22.721 [info] Discover tests for workspace name: rahultammu71 - uri: /home/rahultammu71/app.py

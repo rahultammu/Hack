@@ -1,0 +1,30 @@
+2025-09-14 07:56:41.951 [warning] Dir "/home/rahultammu71/.pixi/envs" is not watchable (directory does not exist)
+2025-09-14 07:56:42.549 [info] Python interpreter path: /bin/python
+2025-09-14 07:56:46.524 [info] > pyenv which python
+2025-09-14 07:56:46.524 [info] cwd: .
+2025-09-14 07:56:48.724 [info] Starting Jedi language server for rahultammu71.
+2025-09-14 08:06:35.799 [info] Discover tests for workspace name: rahultammu71 - uri: /home/rahultammu71/app.py
+2025-09-14 08:06:38.689 [info] Discover tests for workspace name: rahultammu71 - uri: /home/rahultammu71/app.py
+2025-09-14 08:06:39.053 [info] Discover tests for workspace name: rahultammu71 - uri: /home/rahultammu71/app.py
+2025-09-14 08:09:12.641 [info] Discover tests for workspace name: rahultammu71 - uri: /home/rahultammu71/app.py
+2025-09-14 08:09:14.027 [info] Discover tests for workspace name: rahultammu71 - uri: /home/rahultammu71/app.py
+2025-09-14 08:10:09.369 [info] Discover tests for workspace name: rahultammu71 - uri: /home/rahultammu71/app.py
+2025-09-14 08:10:29.412 [info] Discover tests for workspace name: rahultammu71 - uri: /home/rahultammu71/app.py
+2025-09-14 08:12:50.828 [info] Discover tests for workspace name: rahultammu71 - uri: /home/rahultammu71/app.py
+2025-09-14 08:14:55.190 [info] Discover tests for workspace name: rahultammu71 - uri: /home/rahultammu71/app.py
+2025-09-14 08:14:56.528 [info] Discover tests for workspace name: rahultammu71 - uri: /home/rahultammu71/app.py
+2025-09-14 08:15:09.324 [info] Discover tests for workspace name: rahultammu71 - uri: /home/rahultammu71/app.py
+2025-09-14 08:15:09.834 [info] Discover tests for workspace name: rahultammu71 - uri: /home/rahultammu71/app.py
+2025-09-14 08:20:13.978 [info] Discover tests for workspace name: rahultammu71 - uri: /home/rahultammu71/app.py
+2025-09-14 08:20:20.352 [info] Discover tests for workspace name: rahultammu71 - uri: /home/rahultammu71/app.py
+2025-09-14 08:20:21.598 [info] Discover tests for workspace name: rahultammu71 - uri: /home/rahultammu71/app.py
+2025-09-14 08:20:26.181 [info] Discover tests for workspace name: rahultammu71 - uri: /home/rahultammu71/app.py
+2025-09-14 08:20:29.807 [info] Discover tests for workspace name: rahultammu71 - uri: /home/rahultammu71/app.py
+2025-09-14 08:20:38.439 [info] Discover tests for workspace name: rahultammu71 - uri: /home/rahultammu71/app.py
+2025-09-14 08:20:41.833 [info] Discover tests for workspace name: rahultammu71 - uri: /home/rahultammu71/app.py
+2025-09-14 08:20:42.343 [info] Discover tests for workspace name: rahultammu71 - uri: /home/rahultammu71/app.py
+2025-09-14 08:20:45.419 [info] Discover tests for workspace name: rahultammu71 - uri: /home/rahultammu71/app.py
+2025-09-14 08:20:47.277 [info] Discover tests for workspace name: rahultammu71 - uri: /home/rahultammu71/app.py
+2025-09-14 08:20:52.958 [info] Discover tests for workspace name: rahultammu71 - uri: /home/rahultammu71/app.py
+2025-09-14 08:20:54.011 [info] Discover tests for workspace name: rahultammu71 - uri: /home/rahultammu71/app.py
+2025-09-14 08:21:35.284 [info] Discover tests for workspace name: rahultammu71 - uri: /home/rahultammu71/app.py

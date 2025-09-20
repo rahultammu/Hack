@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Upload Pitch Deck / Calls / Emails</title>
+  <script>
+    async function uploadFile(event) {
+      event.preventDefault();
+      const fileInput = document.querySelector("#file");
+      const file = fileInput.files[0];
+      const formData = new FormData();
+      formData.append("file", file);
+
+      const response = await fetch("/upload", {
+        method: "POST",
+        body: formData
+      });
+
+      const result = await response.json();
+      document.querySelector("#output").innerText =
+        `GCS URL: ${result.file_url}\n\nExtracted Text:\n${result.extracted_text}`;
+    }
+  </script>
+</head>
+<body>
+  <h2>Upload Pitch Deck / Calls / Emails</h2>
+  <form onsubmit="uploadFile(event)">
+    <input type="file" id="file" name="file" />
+    <button type="submit">Upload & Process</button>
+  </form>
+  <pre id="output" style="margin-top:20px; white-space: pre-wrap;"></pre>
+</body>
+</html>

@@ -1,0 +1,11 @@
+[Error - 7:34:23 PM] (node:11621) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+[Error - 7:34:25 PM] glob error
+[Error - 7:36:50 PM] Failed to load entities from /rahultammu71/.codeoss/data/User/History/-61896a12/entries.json: Error: ENOENT: no such file or directory, open '/rahultammu71/.codeoss/data/User/History/-61896a12/entries.json'
+[Error - 7:36:50 PM] Failed to load entities from /rahultammu71/.codeoss/data/User/History/-61896a12/entries.json: Error: ENOENT: no such file or directory, open '/rahultammu71/.codeoss/data/User/History/-61896a12/entries.json'
+[Error - 7:36:50 PM] Failed to load entities from /rahultammu71/.codeoss/data/User/History/-61896a12/entries.json: Error: ENOENT: no such file or directory, open '/rahultammu71/.codeoss/data/User/History/-61896a12/entries.json'
+[Error - 7:37:50 PM] Failed to load entities from /rahultammu71/.codeoss/data/User/History/-61896a12/entries.json: Error: ENOENT: no such file or directory, open '/rahultammu71/.codeoss/data/User/History/-61896a12/entries.json'
+[Error - 7:37:50 PM] Failed to load entities from /rahultammu71/.codeoss/data/User/History/-61896a12/entries.json: Error: ENOENT: no such file or directory, open '/rahultammu71/.codeoss/data/User/History/-61896a12/entries.json'
+[Error - 7:37:50 PM] Failed to load entities from /rahultammu71/.codeoss/data/User/History/-61896a12/entries.json: Error: ENOENT: no such file or directory, open '/rahultammu71/.codeoss/data/User/History/-61896a12/entries.json'
+[Error - 7:37:50 PM] Failed to load entities from /rahultammu71/.codeoss/data/User/History/-61896a12/entries.json: Error: ENOENT: no such file or directory, open '/rahultammu71/.codeoss/data/User/History/-61896a12/entries.json'
+[Error - 7:37:50 PM] Failed to load entities from /rahultammu71/.codeoss/data/User/History/-61896a12/entries.json: Error: ENOENT: no such file or directory, open '/rahultammu71/.codeoss/data/User/History/-61896a12/entries.json'

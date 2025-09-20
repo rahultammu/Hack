@@ -1,0 +1,28 @@
+2025-09-16 14:35:58.629 [warning] Dir "/home/rahultammu71/.pixi/envs" is not watchable (directory does not exist)
+2025-09-16 14:35:58.705 [info] Python interpreter path: /bin/python
+2025-09-16 14:35:58.820 [info] > pyenv which python
+2025-09-16 14:35:58.820 [info] cwd: .
+2025-09-16 14:36:02.815 [info] Starting Jedi language server for rahultammu71.
+2025-09-16 14:36:24.708 [info] Discover tests for workspace name: rahultammu71 - uri: /home/rahultammu71/.gemini/settings.json
+2025-09-16 14:44:10.755 [info] Running installed packages checker:  {
+  id: '/bin/python',
+  sysPrefix: '/usr',
+  envType: 'Global',
+  envName: '',
+  envPath: '',
+  path: '/bin/python',
+  architecture: 3,
+  sysVersion: '3.12.3 (main, Aug 14 2025, 17:47:21) [GCC 13.3.0]',
+  version: {
+    raw: '3.12.3',
+    major: 3,
+    minor: 12,
+    patch: 3,
+    build: [],
+    prerelease: [ 'final', '0' ]
+  },
+  displayName: 'Python 3.12.3 64-bit',
+  detailedDisplayName: 'Python 3.12.3 64-bit',
+  type: undefined
+} /google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/installed_check.py /home/rahultammu71/ai-analyst/requirements.txt
+2025-09-16 14:44:10.756 [info] > /bin/python /google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/installed_check.py ./ai-analyst/requirements.txt

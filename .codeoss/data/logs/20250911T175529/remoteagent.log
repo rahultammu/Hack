@@ -1,0 +1,65 @@
+2025-09-11 17:55:29.485 [info] 
+
+
+
+
+2025-09-11 17:55:29.503 [info] Extension host agent started.
+2025-09-11 17:55:31.211 [info] [127.0.0.1][5bf4ca84][ExtensionHostConnection] New connection established.
+2025-09-11 17:55:31.213 [info] [127.0.0.1][fac51274][ManagementConnection] New connection established.
+2025-09-11 17:55:31.452 [info] ComputeTargetPlatform: linux-x64
+2025-09-11 17:55:32.751 [info] [127.0.0.1][5bf4ca84][ExtensionHostConnection] <1623> Launched Extension Host Process.
+2025-09-11 18:05:50.646 [info] [127.0.0.1][48efbbf3][ManagementConnection] New connection established.
+2025-09-11 18:05:50.692 [info] [127.0.0.1][0cc28b15][ExtensionHostConnection] New connection established.
+2025-09-11 18:05:50.697 [info] [127.0.0.1][0cc28b15][ExtensionHostConnection] <2232> Launched Extension Host Process.
+2025-09-11 18:05:54.465 [warning] RequestStore#acceptReply was called without receiving a matching request 49
+2025-09-11 18:05:54.465 [warning] RequestStore#acceptReply was called without receiving a matching request 50
+2025-09-11 18:05:54.466 [warning] RequestStore#acceptReply was called without receiving a matching request 51
+2025-09-11 18:05:54.466 [warning] RequestStore#acceptReply was called without receiving a matching request 52
+2025-09-11 18:05:54.466 [warning] RequestStore#acceptReply was called without receiving a matching request 53
+2025-09-11 18:05:54.466 [warning] RequestStore#acceptReply was called without receiving a matching request 54
+2025-09-11 18:05:54.466 [warning] RequestStore#acceptReply was called without receiving a matching request 55
+2025-09-11 18:05:54.466 [warning] RequestStore#acceptReply was called without receiving a matching request 56
+2025-09-11 18:05:54.466 [warning] RequestStore#acceptReply was called without receiving a matching request 57
+2025-09-11 18:05:54.466 [warning] RequestStore#acceptReply was called without receiving a matching request 58
+2025-09-11 18:05:54.466 [warning] RequestStore#acceptReply was called without receiving a matching request 59
+2025-09-11 18:05:54.466 [warning] RequestStore#acceptReply was called without receiving a matching request 60
+2025-09-11 18:06:02.332 [warning] RequestStore#acceptReply was called without receiving a matching request 61
+2025-09-11 18:06:02.332 [warning] RequestStore#acceptReply was called without receiving a matching request 62
+2025-09-11 18:06:02.332 [warning] RequestStore#acceptReply was called without receiving a matching request 63
+2025-09-11 18:06:02.332 [warning] RequestStore#acceptReply was called without receiving a matching request 64
+2025-09-11 18:06:02.332 [warning] RequestStore#acceptReply was called without receiving a matching request 65
+2025-09-11 18:06:02.332 [warning] RequestStore#acceptReply was called without receiving a matching request 66
+2025-09-11 18:06:02.332 [warning] RequestStore#acceptReply was called without receiving a matching request 67
+2025-09-11 18:06:02.332 [warning] RequestStore#acceptReply was called without receiving a matching request 68
+2025-09-11 18:06:02.332 [warning] RequestStore#acceptReply was called without receiving a matching request 69
+2025-09-11 18:06:02.332 [warning] RequestStore#acceptReply was called without receiving a matching request 70
+2025-09-11 18:06:02.332 [warning] RequestStore#acceptReply was called without receiving a matching request 71
+2025-09-11 18:06:02.333 [warning] RequestStore#acceptReply was called without receiving a matching request 72
+2025-09-11 18:06:07.023 [warning] RequestStore#acceptReply was called without receiving a matching request 73
+2025-09-11 18:06:07.023 [warning] RequestStore#acceptReply was called without receiving a matching request 74
+2025-09-11 18:06:07.024 [warning] RequestStore#acceptReply was called without receiving a matching request 75
+2025-09-11 18:06:07.024 [warning] RequestStore#acceptReply was called without receiving a matching request 76
+2025-09-11 18:06:07.024 [warning] RequestStore#acceptReply was called without receiving a matching request 77
+2025-09-11 18:06:07.024 [warning] RequestStore#acceptReply was called without receiving a matching request 78
+2025-09-11 18:06:07.025 [warning] RequestStore#acceptReply was called without receiving a matching request 79
+2025-09-11 18:06:07.025 [warning] RequestStore#acceptReply was called without receiving a matching request 80
+2025-09-11 18:06:07.025 [warning] RequestStore#acceptReply was called without receiving a matching request 81
+2025-09-11 18:06:07.025 [warning] RequestStore#acceptReply was called without receiving a matching request 82
+2025-09-11 18:06:07.025 [warning] RequestStore#acceptReply was called without receiving a matching request 83
+2025-09-11 18:06:07.025 [warning] RequestStore#acceptReply was called without receiving a matching request 84
+2025-09-11 18:06:44.693 [info] [127.0.0.1][fac51274][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2025-09-11 18:06:44.792 [info] [127.0.0.1][5bf4ca84][ExtensionHostConnection] <1623> Extension Host Process exited with code: 0, signal: null.
+2025-09-11 18:30:17.011 [info] [127.0.0.1][48efbbf3][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2025-09-11 18:30:17.211 [info] [127.0.0.1][0cc28b15][ExtensionHostConnection] <2232> Extension Host Process exited with code: 0, signal: null.
+2025-09-11 18:30:23.256 [info] [127.0.0.1][0ee592cf][ManagementConnection] New connection established.
+2025-09-11 18:30:23.358 [info] [127.0.0.1][ad17b871][ExtensionHostConnection] New connection established.
+2025-09-11 18:30:23.363 [info] [127.0.0.1][ad17b871][ExtensionHostConnection] <4794> Launched Extension Host Process.
+2025-09-11 18:32:26.552 [info] ComputeTargetPlatform: linux-x64
+2025-09-11 18:32:42.804 [info] Getting Manifest... ritwickdey.liveserver
+2025-09-11 18:32:44.648 [info] Installing extension: ritwickdey.liveserver {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"isApplicationScoped":false,"profileLocation":{"$mid":1,"fsPath":"/home/rahultammu71/.codeoss/extensions/extensions.json","external":"file:///home/rahultammu71/.codeoss/extensions/extensions.json","path":"/home/rahultammu71/.codeoss/extensions/extensions.json","scheme":"file"},"productVersion":{"version":"1.101.2-cde","date":"2025-09-07T07:12:07.372Z"}}
+2025-09-11 18:32:53.525 [info] Extracted extension to file:///home/rahultammu71/.codeoss/extensions/ritwickdey.liveserver-5.7.9-universal: ritwickdey.liveserver
+2025-09-11 18:32:53.889 [info] Renamed to /home/rahultammu71/.codeoss/extensions/ritwickdey.liveserver-5.7.9-universal
+2025-09-11 18:32:53.906 [info] Extension installed successfully: ritwickdey.liveserver file:///home/rahultammu71/.codeoss/extensions/extensions.json
+2025-09-11 18:33:13.482 [info] [127.0.0.1][ad17b871][ExtensionHostConnection] <4794> [0mGET /favicon.ico [33m404[0m 2.424 ms - 150[0m
+
+2025-09-11 18:50:55.603 [info] [127.0.0.1][0ee592cf][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...

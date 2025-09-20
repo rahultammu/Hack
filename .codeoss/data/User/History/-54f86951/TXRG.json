@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "zoo-remote": {
+      "httpUrl": "https://zoo-mcp-server-$PROJECT_NUMBER.europe-west1.run.app/mcp/",
+      "headers": {
+        "Authorization": "Bearer $ID_TOKEN"
+      }
+    }
+  },
+  "selectedAuthType": "cloud-shell",
+  "hasSeenIdeIntegrationNudge": true
+}

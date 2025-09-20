@@ -1,0 +1,190 @@
+2025-09-12 17:07:24.155 [warning] Dir "/home/rahultammu71/.pixi/envs" is not watchable (directory does not exist)
+2025-09-12 17:07:24.155 [info] Starting Environment refresh
+2025-09-12 17:07:24.155 [info] Searching for interpreters in posix paths locator
+2025-09-12 17:07:24.155 [info] Searching for pyenv environments
+2025-09-12 17:07:24.155 [info] Searching for conda environments
+2025-09-12 17:07:24.155 [info] Searching for global virtual environments
+2025-09-12 17:07:24.155 [info] Searching for custom virtual environments
+2025-09-12 17:07:24.155 [info] pyenv is not installed
+2025-09-12 17:07:24.155 [info] Finished searching for pyenv environments: 40 milliseconds
+2025-09-12 17:07:24.155 [info] Finished searching for custom virtual envs: 38 milliseconds
+2025-09-12 17:07:24.155 [info] > conda info --json
+2025-09-12 17:07:24.155 [info] > hatch env show --json
+2025-09-12 17:07:24.155 [info] cwd: .
+2025-09-12 17:07:24.155 [info] > pyenv which python
+2025-09-12 17:07:24.155 [info] cwd: .
+2025-09-12 17:07:24.155 [info] Finished searching for global virtual envs: 74 milliseconds
+2025-09-12 17:07:24.156 [info] Found: /bin/python --> /bin/python3.12
+2025-09-12 17:07:24.158 [info] Found: /bin/python3 --> /bin/python3.12
+2025-09-12 17:07:24.159 [info] Found: /bin/python3.12 --> /bin/python3.12
+2025-09-12 17:07:24.206 [info] Found: /usr/bin/python --> /usr/bin/python3.12
+2025-09-12 17:07:24.206 [info] Found: /usr/bin/python3 --> /usr/bin/python3.12
+2025-09-12 17:07:24.206 [info] Found: /usr/bin/python3.12 --> /usr/bin/python3.12
+2025-09-12 17:07:24.264 [info] Finished searching for interpreters in posix paths locator: 197 milliseconds
+2025-09-12 17:07:24.264 [info] > /bin/python -I /google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/get_output_via_markers.py /google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/interpreterInfo.py
+2025-09-12 17:07:24.321 [info] > /usr/bin/python -I /google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/get_output_via_markers.py /google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/interpreterInfo.py
+2025-09-12 17:07:24.321 [info] Environments refresh paths discovered (event): 259 milliseconds
+2025-09-12 17:07:24.321 [info] Environments refresh paths discovered: 259 milliseconds
+2025-09-12 17:07:24.383 [info] Environments refresh finished (event): 321 milliseconds
+2025-09-12 17:07:24.396 [info] Environment refresh took 334 milliseconds
+2025-09-12 17:07:24.401 [info] Python interpreter path: /bin/python
+2025-09-12 17:07:27.917 [info] Starting Jedi language server for rahultammu71.
+2025-09-12 18:19:19.708 [info] Discover tests for workspace name: rahultammu71 - uri: /home/rahultammu71/app.py
+2025-09-12 18:20:25.151 [info] Discover tests for workspace name: rahultammu71 - uri: /home/rahultammu71/app.py
+2025-09-12 18:21:01.127 [info] Discover tests for workspace name: rahultammu71 - uri: /home/rahultammu71/app.py
+2025-09-12 18:21:03.724 [info] Discover tests for workspace name: rahultammu71 - uri: /home/rahultammu71/app.py
+2025-09-12 18:24:29.539 [info] Discover tests for workspace name: rahultammu71 - uri: /home/rahultammu71/app.py
+2025-09-12 18:26:16.370 [info] Running installed packages checker:  {
+  id: '/bin/python',
+  sysPrefix: '/usr',
+  envType: 'Global',
+  envName: '',
+  envPath: '',
+  path: '/bin/python',
+  architecture: 3,
+  sysVersion: '3.12.3 (main, Aug 14 2025, 17:47:21) [GCC 13.3.0]',
+  version: {
+    raw: '3.12.3',
+    major: 3,
+    minor: 12,
+    patch: 3,
+    build: [],
+    prerelease: [ 'final', '0' ]
+  },
+  displayName: 'Python 3.12.3 64-bit',
+  detailedDisplayName: 'Python 3.12.3 64-bit',
+  type: undefined
+} /google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/installed_check.py /home/rahultammu71/requirements.txt
+2025-09-12 18:26:16.370 [info] > /bin/python /google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/installed_check.py ./requirements.txt
+2025-09-12 18:26:18.488 [info] Running installed packages checker:  {
+  id: '/bin/python',
+  sysPrefix: '/usr',
+  envType: 'Global',
+  envName: '',
+  envPath: '',
+  path: '/bin/python',
+  architecture: 3,
+  sysVersion: '3.12.3 (main, Aug 14 2025, 17:47:21) [GCC 13.3.0]',
+  version: {
+    raw: '3.12.3',
+    major: 3,
+    minor: 12,
+    patch: 3,
+    build: [],
+    prerelease: [ 'final', '0' ]
+  },
+  displayName: 'Python 3.12.3 64-bit',
+  detailedDisplayName: 'Python 3.12.3 64-bit',
+  type: undefined
+} /google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/installed_check.py /home/rahultammu71/requirements.txt
+2025-09-12 18:26:18.488 [info] > /bin/python /google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/installed_check.py ./requirements.txt
+2025-09-12 18:28:42.901 [info] Discover tests for workspace name: rahultammu71 - uri: /home/rahultammu71/app.py
+2025-09-12 18:29:42.070 [info] Discover tests for workspace name: rahultammu71 - uri: /home/rahultammu71/app.py
+2025-09-12 18:54:26.188 [info] Discover tests for workspace name: rahultammu71 - uri: /home/rahultammu71/app.py
+2025-09-12 18:54:48.523 [info] Discover tests for workspace name: rahultammu71 - uri: /home/rahultammu71/app.py
+2025-09-12 18:54:53.311 [info] Discover tests for workspace name: rahultammu71 - uri: /home/rahultammu71/app.py
+2025-09-12 18:55:22.969 [info] Discover tests for workspace name: rahultammu71 - uri: /home/rahultammu71/app.py
+2025-09-12 18:55:33.659 [info] Discover tests for workspace name: rahultammu71 - uri: /home/rahultammu71/app.py
+2025-09-12 18:55:35.054 [info] Discover tests for workspace name: rahultammu71 - uri: /home/rahultammu71/app.py
+2025-09-12 18:56:35.153 [info] Discover tests for workspace name: rahultammu71 - uri: /home/rahultammu71/app.py
+2025-09-12 18:56:37.265 [info] Discover tests for workspace name: rahultammu71 - uri: /home/rahultammu71/app.py
+2025-09-12 18:56:52.069 [info] Discover tests for workspace name: rahultammu71 - uri: /home/rahultammu71/app.py
+2025-09-12 18:56:54.769 [info] Discover tests for workspace name: rahultammu71 - uri: /home/rahultammu71/app.py
+2025-09-12 18:56:56.141 [info] Discover tests for workspace name: rahultammu71 - uri: /home/rahultammu71/app.py
+2025-09-12 18:57:31.203 [info] Discover tests for workspace name: rahultammu71 - uri: /home/rahultammu71/app.py
+2025-09-12 19:02:13.483 [info] Discover tests for workspace name: rahultammu71 - uri: /home/rahultammu71/app.py
+2025-09-12 19:05:49.150 [info] Discover tests for workspace name: rahultammu71 - uri: /home/rahultammu71/app.py
+2025-09-12 19:05:52.576 [info] Discover tests for workspace name: rahultammu71 - uri: /home/rahultammu71/app.py
+2025-09-12 19:05:59.111 [info] Discover tests for workspace name: rahultammu71 - uri: /home/rahultammu71/app.py
+2025-09-12 19:06:02.736 [info] Discover tests for workspace name: rahultammu71 - uri: /home/rahultammu71/app.py
+2025-09-12 19:06:20.326 [info] Discover tests for workspace name: rahultammu71 - uri: /home/rahultammu71/app.py
+2025-09-12 19:06:20.958 [info] Discover tests for workspace name: rahultammu71 - uri: /home/rahultammu71/app.py
+2025-09-12 19:06:45.435 [info] Discover tests for workspace name: undefined - uri: /User/settings.json
+2025-09-12 19:07:37.061 [info] Discover tests for workspace name: rahultammu71 - uri: /home/rahultammu71/app.py
+2025-09-12 19:09:42.561 [info] Discover tests for workspace name: rahultammu71 - uri: /home/rahultammu71/app.py
+2025-09-12 19:09:44.227 [info] Discover tests for workspace name: rahultammu71 - uri: /home/rahultammu71/app.py
+2025-09-12 19:09:48.729 [info] Discover tests for workspace name: rahultammu71 - uri: /home/rahultammu71/app.py
+2025-09-12 19:11:11.135 [info] Discover tests for workspace name: rahultammu71 - uri: /home/rahultammu71/app.py
+2025-09-12 19:11:12.601 [info] Discover tests for workspace name: rahultammu71 - uri: /home/rahultammu71/app.py
+2025-09-12 19:11:14.041 [info] Discover tests for workspace name: rahultammu71 - uri: /home/rahultammu71/app.py
+2025-09-12 19:11:15.189 [info] Discover tests for workspace name: rahultammu71 - uri: /home/rahultammu71/app.py
+2025-09-12 19:12:36.356 [info] Discover tests for workspace name: rahultammu71 - uri: /home/rahultammu71/app.py
+2025-09-12 19:12:39.604 [info] Discover tests for workspace name: rahultammu71 - uri: /home/rahultammu71/app.py
+2025-09-12 19:12:58.105 [info] Discover tests for workspace name: rahultammu71 - uri: /home/rahultammu71/app.py
+2025-09-12 19:13:03.308 [info] Discover tests for workspace name: rahultammu71 - uri: /home/rahultammu71/app.py
+2025-09-12 19:13:18.432 [info] Discover tests for workspace name: rahultammu71 - uri: /home/rahultammu71/app.py
+2025-09-12 19:13:22.903 [info] Discover tests for workspace name: rahultammu71 - uri: /home/rahultammu71/app.py
+2025-09-12 19:13:25.208 [info] Discover tests for workspace name: rahultammu71 - uri: /home/rahultammu71/app.py
+2025-09-12 19:13:29.629 [info] Discover tests for workspace name: rahultammu71 - uri: /home/rahultammu71/app.py
+2025-09-12 19:13:32.760 [info] Discover tests for workspace name: rahultammu71 - uri: /home/rahultammu71/app.py
+2025-09-12 19:13:37.990 [info] Discover tests for workspace name: rahultammu71 - uri: /home/rahultammu71/app.py
+2025-09-12 19:13:39.353 [info] Discover tests for workspace name: rahultammu71 - uri: /home/rahultammu71/app.py
+2025-09-12 19:13:41.645 [info] Discover tests for workspace name: rahultammu71 - uri: /home/rahultammu71/app.py
+2025-09-12 19:13:43.899 [info] Discover tests for workspace name: rahultammu71 - uri: /home/rahultammu71/app.py
+2025-09-12 19:14:26.609 [info] Discover tests for workspace name: rahultammu71 - uri: /home/rahultammu71/app.py
+2025-09-12 19:36:20.525 [info] Discover tests for workspace name: rahultammu71 - uri: /home/rahultammu71/app.py
+2025-09-12 19:36:27.906 [info] Discover tests for workspace name: rahultammu71 - uri: /home/rahultammu71/app.py
+2025-09-12 19:36:32.389 [info] Discover tests for workspace name: rahultammu71 - uri: /home/rahultammu71/app.py
+2025-09-12 19:36:34.082 [info] Discover tests for workspace name: rahultammu71 - uri: /home/rahultammu71/app.py
+2025-09-12 19:37:10.423 [info] Discover tests for workspace name: rahultammu71 - uri: /home/rahultammu71/app.py
+2025-09-12 19:37:12.344 [info] Discover tests for workspace name: rahultammu71 - uri: /home/rahultammu71/app.py
+2025-09-12 19:37:20.300 [info] Discover tests for workspace name: rahultammu71 - uri: /home/rahultammu71/app.py
+2025-09-12 19:37:27.622 [info] Discover tests for workspace name: rahultammu71 - uri: /home/rahultammu71/app.py
+2025-09-12 19:37:31.523 [info] Discover tests for workspace name: rahultammu71 - uri: /home/rahultammu71/app.py
+2025-09-12 19:37:48.809 [info] Discover tests for workspace name: rahultammu71 - uri: /home/rahultammu71/app.py
+2025-09-12 19:44:29.802 [info] Discover tests for workspace name: rahultammu71 - uri: /home/rahultammu71/app.py
+2025-09-12 19:44:33.574 [info] Discover tests for workspace name: rahultammu71 - uri: /home/rahultammu71/app.py
+2025-09-12 19:44:36.985 [info] Discover tests for workspace name: rahultammu71 - uri: /home/rahultammu71/app.py
+2025-09-12 19:45:41.840 [info] Discover tests for workspace name: rahultammu71 - uri: /home/rahultammu71/app.py
+2025-09-12 19:47:30.754 [info] Discover tests for workspace name: rahultammu71 - uri: /home/rahultammu71/app.py
+2025-09-12 19:47:36.750 [info] Discover tests for workspace name: rahultammu71 - uri: /home/rahultammu71/app.py
+2025-09-12 19:47:39.416 [info] Discover tests for workspace name: rahultammu71 - uri: /home/rahultammu71/app.py
+2025-09-12 19:47:41.643 [info] Discover tests for workspace name: rahultammu71 - uri: /home/rahultammu71/app.py
+2025-09-12 19:47:42.355 [info] Discover tests for workspace name: rahultammu71 - uri: /home/rahultammu71/app.py
+2025-09-12 19:50:50.305 [info] Discover tests for workspace name: rahultammu71 - uri: /home/rahultammu71/app.py
+2025-09-12 19:50:57.320 [info] Discover tests for workspace name: rahultammu71 - uri: /home/rahultammu71/app.py
+2025-09-12 19:52:13.471 [info] Running installed packages checker:  {
+  id: '/bin/python',
+  sysPrefix: '/usr',
+  envType: 'Global',
+  envName: '',
+  envPath: '',
+  path: '/bin/python',
+  architecture: 3,
+  sysVersion: '3.12.3 (main, Aug 14 2025, 17:47:21) [GCC 13.3.0]',
+  version: {
+    raw: '3.12.3',
+    major: 3,
+    minor: 12,
+    patch: 3,
+    build: [],
+    prerelease: [ 'final', '0' ]
+  },
+  displayName: 'Python 3.12.3 64-bit',
+  detailedDisplayName: 'Python 3.12.3 64-bit',
+  type: undefined
+} /google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/installed_check.py /home/rahultammu71/requirements.txt
+2025-09-12 19:52:13.471 [info] > /bin/python /google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/installed_check.py ./requirements.txt
+2025-09-12 19:52:58.334 [info] Running installed packages checker:  {
+  id: '/bin/python',
+  sysPrefix: '/usr',
+  envType: 'Global',
+  envName: '',
+  envPath: '',
+  path: '/bin/python',
+  architecture: 3,
+  sysVersion: '3.12.3 (main, Aug 14 2025, 17:47:21) [GCC 13.3.0]',
+  version: {
+    raw: '3.12.3',
+    major: 3,
+    minor: 12,
+    patch: 3,
+    build: [],
+    prerelease: [ 'final', '0' ]
+  },
+  displayName: 'Python 3.12.3 64-bit',
+  detailedDisplayName: 'Python 3.12.3 64-bit',
+  type: undefined
+} /google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/installed_check.py /home/rahultammu71/requirements.txt
+2025-09-12 19:52:58.334 [info] > /bin/python /google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/installed_check.py ./requirements.txt
+2025-09-12 19:55:48.682 [info] Discover tests for workspace name: rahultammu71 - uri: /home/rahultammu71/app.py

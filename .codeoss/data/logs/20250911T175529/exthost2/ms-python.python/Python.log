@@ -1,0 +1,26 @@
+2025-09-11 18:29:51.284 [info] Starting Environment refresh
+2025-09-11 18:29:51.284 [info] Searching for interpreters in posix paths locator
+2025-09-11 18:29:51.284 [info] Searching for pyenv environments
+2025-09-11 18:29:51.284 [info] Searching for conda environments
+2025-09-11 18:29:51.284 [info] Searching for global virtual environments
+2025-09-11 18:29:51.284 [info] Searching for custom virtual environments
+2025-09-11 18:29:51.284 [info] pyenv is not installed
+2025-09-11 18:29:51.284 [info] Finished searching for pyenv environments: 16 milliseconds
+2025-09-11 18:29:51.284 [info] Finished searching for custom virtual envs: 16 milliseconds
+2025-09-11 18:29:51.284 [info] > conda info --json
+2025-09-11 18:29:51.285 [info] Found: /bin/python --> /bin/python3.12
+2025-09-11 18:29:51.286 [info] Found: /bin/python3 --> /bin/python3.12
+2025-09-11 18:29:51.286 [info] Found: /bin/python3.12 --> /bin/python3.12
+2025-09-11 18:29:51.297 [info] Found: /usr/bin/python --> /usr/bin/python3.12
+2025-09-11 18:29:51.298 [info] Found: /usr/bin/python3 --> /usr/bin/python3.12
+2025-09-11 18:29:51.298 [info] Found: /usr/bin/python3.12 --> /usr/bin/python3.12
+2025-09-11 18:29:51.333 [info] Finished searching for interpreters in posix paths locator: 83 milliseconds
+2025-09-11 18:29:51.333 [info] > /bin/python -I /google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/get_output_via_markers.py /google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/interpreterInfo.py
+2025-09-11 18:29:51.334 [info] Finished searching for global virtual envs: 90 milliseconds
+2025-09-11 18:29:51.352 [info] > /usr/bin/python -I /google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/get_output_via_markers.py /google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/interpreterInfo.py
+2025-09-11 18:29:51.352 [info] Environments refresh paths discovered (event): 112 milliseconds
+2025-09-11 18:29:51.352 [info] Environments refresh paths discovered: 112 milliseconds
+2025-09-11 18:29:51.404 [info] Environments refresh finished (event): 164 milliseconds
+2025-09-11 18:29:51.413 [info] Environment refresh took 174 milliseconds
+2025-09-11 18:29:51.421 [info] Python interpreter path: /bin/python
+2025-09-11 18:29:53.590 [info] Starting Jedi language server for default.

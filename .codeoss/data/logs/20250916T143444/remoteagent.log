@@ -1,0 +1,266 @@
+2025-09-16 14:34:44.313 [info] 
+
+
+
+
+2025-09-16 14:34:44.328 [info] Extension host agent started.
+2025-09-16 14:34:46.652 [info] [127.0.0.1][2dc386a9][ManagementConnection] New connection established.
+2025-09-16 14:34:46.729 [info] [127.0.0.1][f4b13604][ExtensionHostConnection] New connection established.
+2025-09-16 14:34:46.860 [info] ComputeTargetPlatform: linux-x64
+2025-09-16 14:34:48.259 [info] [127.0.0.1][f4b13604][ExtensionHostConnection] <1627> Launched Extension Host Process.
+2025-09-16 14:34:52.042 [info] ComputeTargetPlatform: linux-x64
+2025-09-16 14:35:50.835 [info] [127.0.0.1][2dc386a9][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2025-09-16 14:35:52.482 [info] [127.0.0.1][60b9ee33][ManagementConnection] New connection established.
+2025-09-16 14:35:52.684 [info] [127.0.0.1][29c2e602][ExtensionHostConnection] New connection established.
+2025-09-16 14:35:52.689 [info] [127.0.0.1][29c2e602][ExtensionHostConnection] <2490> Launched Extension Host Process.
+2025-09-16 14:35:56.932 [info] [127.0.0.1][f4b13604][ExtensionHostConnection] <1627> Extension Host Process exited with code: 0, signal: null.
+2025-09-16 14:41:50.023 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2025-09-16 14:48:53.221 [info] [127.0.0.1][60b9ee33][ManagementConnection] The client has reconnected.
+2025-09-16 14:48:53.283 [error] #41: http://localhost:981/_workstation/reportactivity - error GET Canceled
+2025-09-16 14:48:53.284 [error] #42: http://localhost:981/_workstation/reportactivity - error GET Canceled
+2025-09-16 14:48:53.285 [error] #43: http://localhost:981/_workstation/reportactivity - error GET Canceled
+2025-09-16 14:48:55.803 [info] [127.0.0.1][cd1ada7f][ManagementConnection] New connection established.
+2025-09-16 14:48:55.940 [info] [127.0.0.1][5545df67][ExtensionHostConnection] New connection established.
+2025-09-16 14:48:55.947 [info] [127.0.0.1][5545df67][ExtensionHostConnection] <4950> Launched Extension Host Process.
+2025-09-16 14:48:55.980 [info] Started initializing default profile extensions in extensions installation folder. file:///home/rahultammu71/.codeoss/extensions
+2025-09-16 14:48:56.124 [error] Error: Unable to resolve nonexistent file '/home/rahultammu71/.codeoss/extensions'
+    at Ll.resolve (file:///google/devshell/editor/code-oss-for-cloud-shell/out/server-main.js:64:12292)
+    at async Pl.r (file:///google/devshell/editor/code-oss-for-cloud-shell/out/server-main.js:54:36578)
+    at async Bl.scanAllUserExtensions (file:///google/devshell/editor/code-oss-for-cloud-shell/out/server-main.js:54:29510)
+    at async file:///google/devshell/editor/code-oss-for-cloud-shell/out/server-main.js:54:31452
+2025-09-16 14:48:56.674 [info] Started initializing default profile extensions in extensions installation folder. file:///home/rahultammu71/.codeoss/extensions
+2025-09-16 14:48:56.675 [error] Error: Unable to resolve nonexistent file '/home/rahultammu71/.codeoss/extensions'
+    at Ll.resolve (file:///google/devshell/editor/code-oss-for-cloud-shell/out/server-main.js:64:12292)
+    at async Pl.r (file:///google/devshell/editor/code-oss-for-cloud-shell/out/server-main.js:54:36578)
+    at async Bl.scanAllUserExtensions (file:///google/devshell/editor/code-oss-for-cloud-shell/out/server-main.js:54:29510)
+    at async file:///google/devshell/editor/code-oss-for-cloud-shell/out/server-main.js:54:31452
+    at async Bl.scanUserExtensions (file:///google/devshell/editor/code-oss-for-cloud-shell/out/server-main.js:54:29171)
+    at async Promise.all (index 1)
+    at async Bl.scanAllExtensions (file:///google/devshell/editor/code-oss-for-cloud-shell/out/server-main.js:54:28417)
+    at async Cf.scanExtensions (file:///google/devshell/editor/code-oss-for-cloud-shell/out/server-main.js:55:20132)
+    at async Sx.call (file:///google/devshell/editor/code-oss-for-cloud-shell/out/server-main.js:71:56454)
+2025-09-16 14:48:56.841 [info] Started initializing default profile extensions in extensions installation folder. file:///home/rahultammu71/.codeoss/extensions
+2025-09-16 14:48:56.844 [error] Error: Unable to resolve nonexistent file '/home/rahultammu71/.codeoss/extensions'
+    at Ll.resolve (file:///google/devshell/editor/code-oss-for-cloud-shell/out/server-main.js:64:12292)
+    at async Pl.r (file:///google/devshell/editor/code-oss-for-cloud-shell/out/server-main.js:54:36578)
+    at async Bl.scanAllUserExtensions (file:///google/devshell/editor/code-oss-for-cloud-shell/out/server-main.js:54:29510)
+    at async file:///google/devshell/editor/code-oss-for-cloud-shell/out/server-main.js:54:31452
+    at async Bl.scanUserExtensions (file:///google/devshell/editor/code-oss-for-cloud-shell/out/server-main.js:54:29171)
+    at async Promise.all (index 1)
+    at async Bl.scanAllExtensions (file:///google/devshell/editor/code-oss-for-cloud-shell/out/server-main.js:54:28417)
+    at async Cf.scanExtensions (file:///google/devshell/editor/code-oss-for-cloud-shell/out/server-main.js:55:20132)
+    at async Sx.call (file:///google/devshell/editor/code-oss-for-cloud-shell/out/server-main.js:71:56454)
+2025-09-16 14:48:58.989 [info] Started initializing default profile extensions in extensions installation folder. file:///home/rahultammu71/.codeoss/extensions
+2025-09-16 14:48:59.005 [error] Error: Unable to resolve nonexistent file '/home/rahultammu71/.codeoss/extensions'
+    at Ll.resolve (file:///google/devshell/editor/code-oss-for-cloud-shell/out/server-main.js:64:12292)
+    at async Pl.r (file:///google/devshell/editor/code-oss-for-cloud-shell/out/server-main.js:54:36578)
+    at async Bl.scanAllUserExtensions (file:///google/devshell/editor/code-oss-for-cloud-shell/out/server-main.js:54:29510)
+    at async file:///google/devshell/editor/code-oss-for-cloud-shell/out/server-main.js:54:31452
+    at async Bl.scanUserExtensions (file:///google/devshell/editor/code-oss-for-cloud-shell/out/server-main.js:54:29171)
+    at async Promise.all (index 1)
+    at async Bl.scanAllExtensions (file:///google/devshell/editor/code-oss-for-cloud-shell/out/server-main.js:54:28417)
+    at async Cf.scanExtensions (file:///google/devshell/editor/code-oss-for-cloud-shell/out/server-main.js:55:20132)
+    at async Sx.call (file:///google/devshell/editor/code-oss-for-cloud-shell/out/server-main.js:71:56454)
+2025-09-16 14:48:59.106 [info] Started initializing default profile extensions in extensions installation folder. file:///home/rahultammu71/.codeoss/extensions
+2025-09-16 14:48:59.134 [error] Error: Unable to resolve nonexistent file '/home/rahultammu71/.codeoss/extensions'
+    at Ll.resolve (file:///google/devshell/editor/code-oss-for-cloud-shell/out/server-main.js:64:12292)
+    at async Pl.r (file:///google/devshell/editor/code-oss-for-cloud-shell/out/server-main.js:54:36578)
+    at async Bl.scanAllUserExtensions (file:///google/devshell/editor/code-oss-for-cloud-shell/out/server-main.js:54:29510)
+    at async file:///google/devshell/editor/code-oss-for-cloud-shell/out/server-main.js:54:31452
+    at async Bl.scanUserExtensions (file:///google/devshell/editor/code-oss-for-cloud-shell/out/server-main.js:54:29171)
+    at async Promise.all (index 1)
+    at async Bl.scanAllExtensions (file:///google/devshell/editor/code-oss-for-cloud-shell/out/server-main.js:54:28417)
+    at async Cf.scanExtensions (file:///google/devshell/editor/code-oss-for-cloud-shell/out/server-main.js:55:20132)
+    at async Sx.call (file:///google/devshell/editor/code-oss-for-cloud-shell/out/server-main.js:71:56454)
+2025-09-16 14:48:59.173 [info] Started initializing default profile extensions in extensions installation folder. file:///home/rahultammu71/.codeoss/extensions
+2025-09-16 14:48:59.176 [error] Error: Unable to resolve nonexistent file '/home/rahultammu71/.codeoss/extensions'
+    at Ll.resolve (file:///google/devshell/editor/code-oss-for-cloud-shell/out/server-main.js:64:12292)
+    at async Pl.r (file:///google/devshell/editor/code-oss-for-cloud-shell/out/server-main.js:54:36578)
+    at async Bl.scanAllUserExtensions (file:///google/devshell/editor/code-oss-for-cloud-shell/out/server-main.js:54:29510)
+    at async file:///google/devshell/editor/code-oss-for-cloud-shell/out/server-main.js:54:31452
+    at async Bl.scanUserExtensions (file:///google/devshell/editor/code-oss-for-cloud-shell/out/server-main.js:54:29171)
+    at async Cf.scanExtensions (file:///google/devshell/editor/code-oss-for-cloud-shell/out/server-main.js:55:20268)
+    at async Sx.call (file:///google/devshell/editor/code-oss-for-cloud-shell/out/server-main.js:71:56454)
+2025-09-16 14:49:13.804 [info] Started initializing default profile extensions in extensions installation folder. file:///home/rahultammu71/.codeoss/extensions
+2025-09-16 14:49:13.805 [error] Error: Unable to resolve nonexistent file '/home/rahultammu71/.codeoss/extensions'
+    at Ll.resolve (file:///google/devshell/editor/code-oss-for-cloud-shell/out/server-main.js:64:12292)
+    at async Pl.r (file:///google/devshell/editor/code-oss-for-cloud-shell/out/server-main.js:54:36578)
+    at async Bl.scanAllUserExtensions (file:///google/devshell/editor/code-oss-for-cloud-shell/out/server-main.js:54:29510)
+    at async file:///google/devshell/editor/code-oss-for-cloud-shell/out/server-main.js:54:31452
+    at async Bl.scanUserExtensions (file:///google/devshell/editor/code-oss-for-cloud-shell/out/server-main.js:54:29171)
+    at async Promise.all (index 1)
+    at async Bl.scanAllExtensions (file:///google/devshell/editor/code-oss-for-cloud-shell/out/server-main.js:54:28417)
+2025-09-16 14:49:24.745 [info] [127.0.0.1][60b9ee33][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+2025-09-16 14:49:52.793 [info] Getting Manifest... ritwickdey.liveserver
+2025-09-16 14:49:54.634 [info] Installing extension: ritwickdey.liveserver {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"isApplicationScoped":false,"profileLocation":{"$mid":1,"fsPath":"/home/rahultammu71/.codeoss/extensions/extensions.json","external":"file:///home/rahultammu71/.codeoss/extensions/extensions.json","path":"/home/rahultammu71/.codeoss/extensions/extensions.json","scheme":"file"},"productVersion":{"version":"1.101.2-cde","date":"2025-09-07T07:12:07.372Z"}}
+2025-09-16 14:49:54.638 [info] Started initializing default profile extensions in extensions installation folder. file:///home/rahultammu71/.codeoss/extensions
+2025-09-16 14:49:54.639 [error] Error: Unable to resolve nonexistent file '/home/rahultammu71/.codeoss/extensions'
+    at Ll.resolve (file:///google/devshell/editor/code-oss-for-cloud-shell/out/server-main.js:64:12292)
+    at async Pl.r (file:///google/devshell/editor/code-oss-for-cloud-shell/out/server-main.js:54:36578)
+    at async Bl.scanAllUserExtensions (file:///google/devshell/editor/code-oss-for-cloud-shell/out/server-main.js:54:29510)
+    at async file:///google/devshell/editor/code-oss-for-cloud-shell/out/server-main.js:54:31452
+    at async Bl.scanUserExtensions (file:///google/devshell/editor/code-oss-for-cloud-shell/out/server-main.js:54:29171)
+    at async Promise.all (index 1)
+    at async Bl.scanAllExtensions (file:///google/devshell/editor/code-oss-for-cloud-shell/out/server-main.js:54:28417)
+    at async Cf.scanExtensions (file:///google/devshell/editor/code-oss-for-cloud-shell/out/server-main.js:55:20132)
+    at async file:///google/devshell/editor/code-oss-for-cloud-shell/out/server-main.js:54:6809
+    at async Promise.all (index 0)
+    at async Nl.L (file:///google/devshell/editor/code-oss-for-cloud-shell/out/server-main.js:54:6469)
+    at async Nl.installGalleryExtensions (file:///google/devshell/editor/code-oss-for-cloud-shell/out/server-main.js:54:3142)
+    at async Nl.installFromGallery (file:///google/devshell/editor/code-oss-for-cloud-shell/out/server-main.js:54:2390)
+2025-09-16 14:49:54.655 [error] Error while preparing to install dependencies and extension packs of the extension: ritwickdey.liveserver
+2025-09-16 14:50:14.813 [info] Getting Manifest... ritwickdey.liveserver
+2025-09-16 14:50:16.183 [info] Installing extension: ritwickdey.liveserver {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"isApplicationScoped":false,"profileLocation":{"$mid":1,"fsPath":"/home/rahultammu71/.codeoss/extensions/extensions.json","external":"file:///home/rahultammu71/.codeoss/extensions/extensions.json","path":"/home/rahultammu71/.codeoss/extensions/extensions.json","scheme":"file"},"productVersion":{"version":"1.101.2-cde","date":"2025-09-07T07:12:07.372Z"}}
+2025-09-16 14:50:16.185 [info] Started initializing default profile extensions in extensions installation folder. file:///home/rahultammu71/.codeoss/extensions
+2025-09-16 14:50:16.218 [error] Error: Unable to resolve nonexistent file '/home/rahultammu71/.codeoss/extensions'
+    at Ll.resolve (file:///google/devshell/editor/code-oss-for-cloud-shell/out/server-main.js:64:12292)
+    at async Pl.r (file:///google/devshell/editor/code-oss-for-cloud-shell/out/server-main.js:54:36578)
+    at async Bl.scanAllUserExtensions (file:///google/devshell/editor/code-oss-for-cloud-shell/out/server-main.js:54:29510)
+    at async file:///google/devshell/editor/code-oss-for-cloud-shell/out/server-main.js:54:31452
+    at async Bl.scanUserExtensions (file:///google/devshell/editor/code-oss-for-cloud-shell/out/server-main.js:54:29171)
+    at async Promise.all (index 1)
+    at async Bl.scanAllExtensions (file:///google/devshell/editor/code-oss-for-cloud-shell/out/server-main.js:54:28417)
+    at async Cf.scanExtensions (file:///google/devshell/editor/code-oss-for-cloud-shell/out/server-main.js:55:20132)
+    at async file:///google/devshell/editor/code-oss-for-cloud-shell/out/server-main.js:54:6809
+    at async Promise.all (index 0)
+    at async Nl.L (file:///google/devshell/editor/code-oss-for-cloud-shell/out/server-main.js:54:6469)
+    at async Nl.installGalleryExtensions (file:///google/devshell/editor/code-oss-for-cloud-shell/out/server-main.js:54:3142)
+    at async Nl.installFromGallery (file:///google/devshell/editor/code-oss-for-cloud-shell/out/server-main.js:54:2390)
+2025-09-16 14:50:16.225 [error] Error while preparing to install dependencies and extension packs of the extension: ritwickdey.liveserver
+2025-09-16 14:50:33.496 [info] [127.0.0.1][cd1ada7f][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2025-09-16 14:50:33.526 [info] [127.0.0.1][5545df67][ExtensionHostConnection] <4950> Extension Host Process exited with code: 0, signal: null.
+2025-09-16 14:50:41.009 [info] [127.0.0.1][60b9ee33][ManagementConnection] Another client has connected, will shorten the wait for reconnection 5m before disposing...
+2025-09-16 14:50:41.010 [info] [127.0.0.1][49e5f113][ManagementConnection] New connection established.
+2025-09-16 14:50:41.058 [info] [127.0.0.1][5ae4eccc][ExtensionHostConnection] New connection established.
+2025-09-16 14:50:41.066 [info] [127.0.0.1][5ae4eccc][ExtensionHostConnection] <5379> Launched Extension Host Process.
+2025-09-16 14:50:41.122 [info] Started initializing default profile extensions in extensions installation folder. file:///home/rahultammu71/.codeoss/extensions
+2025-09-16 14:50:41.180 [error] Error: Unable to resolve nonexistent file '/home/rahultammu71/.codeoss/extensions'
+    at Ll.resolve (file:///google/devshell/editor/code-oss-for-cloud-shell/out/server-main.js:64:12292)
+    at async Pl.r (file:///google/devshell/editor/code-oss-for-cloud-shell/out/server-main.js:54:36578)
+    at async Bl.scanAllUserExtensions (file:///google/devshell/editor/code-oss-for-cloud-shell/out/server-main.js:54:29510)
+    at async file:///google/devshell/editor/code-oss-for-cloud-shell/out/server-main.js:54:31452
+2025-09-16 14:50:41.330 [info] Started initializing default profile extensions in extensions installation folder. file:///home/rahultammu71/.codeoss/extensions
+2025-09-16 14:50:41.471 [error] Error: Unable to resolve nonexistent file '/home/rahultammu71/.codeoss/extensions'
+    at Ll.resolve (file:///google/devshell/editor/code-oss-for-cloud-shell/out/server-main.js:64:12292)
+    at async Pl.r (file:///google/devshell/editor/code-oss-for-cloud-shell/out/server-main.js:54:36578)
+    at async Bl.scanAllUserExtensions (file:///google/devshell/editor/code-oss-for-cloud-shell/out/server-main.js:54:29510)
+    at async file:///google/devshell/editor/code-oss-for-cloud-shell/out/server-main.js:54:31452
+    at async Bl.scanUserExtensions (file:///google/devshell/editor/code-oss-for-cloud-shell/out/server-main.js:54:29171)
+    at async Promise.all (index 1)
+    at async Bl.scanAllExtensions (file:///google/devshell/editor/code-oss-for-cloud-shell/out/server-main.js:54:28417)
+    at async Cf.scanExtensions (file:///google/devshell/editor/code-oss-for-cloud-shell/out/server-main.js:55:20132)
+    at async Sx.call (file:///google/devshell/editor/code-oss-for-cloud-shell/out/server-main.js:71:56454)
+2025-09-16 14:50:41.623 [info] Started initializing default profile extensions in extensions installation folder. file:///home/rahultammu71/.codeoss/extensions
+2025-09-16 14:50:41.650 [error] Error: Unable to resolve nonexistent file '/home/rahultammu71/.codeoss/extensions'
+    at Ll.resolve (file:///google/devshell/editor/code-oss-for-cloud-shell/out/server-main.js:64:12292)
+    at async Pl.r (file:///google/devshell/editor/code-oss-for-cloud-shell/out/server-main.js:54:36578)
+    at async Bl.scanAllUserExtensions (file:///google/devshell/editor/code-oss-for-cloud-shell/out/server-main.js:54:29510)
+    at async file:///google/devshell/editor/code-oss-for-cloud-shell/out/server-main.js:54:31452
+    at async Bl.scanUserExtensions (file:///google/devshell/editor/code-oss-for-cloud-shell/out/server-main.js:54:29171)
+    at async Promise.all (index 1)
+    at async Bl.scanAllExtensions (file:///google/devshell/editor/code-oss-for-cloud-shell/out/server-main.js:54:28417)
+    at async Cf.scanExtensions (file:///google/devshell/editor/code-oss-for-cloud-shell/out/server-main.js:55:20132)
+    at async Sx.call (file:///google/devshell/editor/code-oss-for-cloud-shell/out/server-main.js:71:56454)
+2025-09-16 14:50:41.819 [info] Started initializing default profile extensions in extensions installation folder. file:///home/rahultammu71/.codeoss/extensions
+2025-09-16 14:50:41.936 [error] Error: Unable to resolve nonexistent file '/home/rahultammu71/.codeoss/extensions'
+    at Ll.resolve (file:///google/devshell/editor/code-oss-for-cloud-shell/out/server-main.js:64:12292)
+    at async Pl.r (file:///google/devshell/editor/code-oss-for-cloud-shell/out/server-main.js:54:36578)
+    at async Bl.scanAllUserExtensions (file:///google/devshell/editor/code-oss-for-cloud-shell/out/server-main.js:54:29510)
+    at async file:///google/devshell/editor/code-oss-for-cloud-shell/out/server-main.js:54:31452
+    at async Bl.scanUserExtensions (file:///google/devshell/editor/code-oss-for-cloud-shell/out/server-main.js:54:29171)
+    at async Promise.all (index 1)
+    at async Bl.scanAllExtensions (file:///google/devshell/editor/code-oss-for-cloud-shell/out/server-main.js:54:28417)
+    at async Cf.scanExtensions (file:///google/devshell/editor/code-oss-for-cloud-shell/out/server-main.js:55:20132)
+    at async Sx.call (file:///google/devshell/editor/code-oss-for-cloud-shell/out/server-main.js:71:56454)
+2025-09-16 14:50:43.973 [info] Started initializing default profile extensions in extensions installation folder. file:///home/rahultammu71/.codeoss/extensions
+2025-09-16 14:50:44.001 [error] Error: Unable to resolve nonexistent file '/home/rahultammu71/.codeoss/extensions'
+    at Ll.resolve (file:///google/devshell/editor/code-oss-for-cloud-shell/out/server-main.js:64:12292)
+    at async Pl.r (file:///google/devshell/editor/code-oss-for-cloud-shell/out/server-main.js:54:36578)
+    at async Bl.scanAllUserExtensions (file:///google/devshell/editor/code-oss-for-cloud-shell/out/server-main.js:54:29510)
+    at async file:///google/devshell/editor/code-oss-for-cloud-shell/out/server-main.js:54:31452
+    at async Bl.scanUserExtensions (file:///google/devshell/editor/code-oss-for-cloud-shell/out/server-main.js:54:29171)
+    at async Promise.all (index 1)
+    at async Bl.scanAllExtensions (file:///google/devshell/editor/code-oss-for-cloud-shell/out/server-main.js:54:28417)
+2025-09-16 14:50:44.024 [info] Started initializing default profile extensions in extensions installation folder. file:///home/rahultammu71/.codeoss/extensions
+2025-09-16 14:50:44.025 [error] Error: Unable to resolve nonexistent file '/home/rahultammu71/.codeoss/extensions'
+    at Ll.resolve (file:///google/devshell/editor/code-oss-for-cloud-shell/out/server-main.js:64:12292)
+    at async Pl.r (file:///google/devshell/editor/code-oss-for-cloud-shell/out/server-main.js:54:36578)
+    at async Bl.scanAllUserExtensions (file:///google/devshell/editor/code-oss-for-cloud-shell/out/server-main.js:54:29510)
+    at async file:///google/devshell/editor/code-oss-for-cloud-shell/out/server-main.js:54:31452
+    at async Bl.scanUserExtensions (file:///google/devshell/editor/code-oss-for-cloud-shell/out/server-main.js:54:29171)
+    at async Cf.scanExtensions (file:///google/devshell/editor/code-oss-for-cloud-shell/out/server-main.js:55:20268)
+    at async Sx.call (file:///google/devshell/editor/code-oss-for-cloud-shell/out/server-main.js:71:56454)
+2025-09-16 14:52:05.409 [info] Started initializing default profile extensions in extensions installation folder. file:///home/rahultammu71/.codeoss/extensions
+2025-09-16 14:52:05.410 [error] Error: Unable to resolve nonexistent file '/home/rahultammu71/.codeoss/extensions'
+    at Ll.resolve (file:///google/devshell/editor/code-oss-for-cloud-shell/out/server-main.js:64:12292)
+    at async Pl.r (file:///google/devshell/editor/code-oss-for-cloud-shell/out/server-main.js:54:36578)
+    at async Bl.scanAllUserExtensions (file:///google/devshell/editor/code-oss-for-cloud-shell/out/server-main.js:54:29510)
+    at async file:///google/devshell/editor/code-oss-for-cloud-shell/out/server-main.js:54:31452
+    at async Bl.scanUserExtensions (file:///google/devshell/editor/code-oss-for-cloud-shell/out/server-main.js:54:29171)
+    at async Promise.all (index 1)
+    at async Bl.scanAllExtensions (file:///google/devshell/editor/code-oss-for-cloud-shell/out/server-main.js:54:28417)
+2025-09-16 14:52:18.444 [info] Getting Manifest... ritwickdey.liveserver
+2025-09-16 14:52:19.835 [info] Installing extension: ritwickdey.liveserver {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"isApplicationScoped":false,"profileLocation":{"$mid":1,"fsPath":"/home/rahultammu71/.codeoss/extensions/extensions.json","external":"file:///home/rahultammu71/.codeoss/extensions/extensions.json","path":"/home/rahultammu71/.codeoss/extensions/extensions.json","scheme":"file"},"productVersion":{"version":"1.101.2-cde","date":"2025-09-07T07:12:07.372Z"}}
+2025-09-16 14:52:19.838 [info] Started initializing default profile extensions in extensions installation folder. file:///home/rahultammu71/.codeoss/extensions
+2025-09-16 14:52:19.859 [error] Error: Unable to resolve nonexistent file '/home/rahultammu71/.codeoss/extensions'
+    at Ll.resolve (file:///google/devshell/editor/code-oss-for-cloud-shell/out/server-main.js:64:12292)
+    at async Pl.r (file:///google/devshell/editor/code-oss-for-cloud-shell/out/server-main.js:54:36578)
+    at async Bl.scanAllUserExtensions (file:///google/devshell/editor/code-oss-for-cloud-shell/out/server-main.js:54:29510)
+    at async file:///google/devshell/editor/code-oss-for-cloud-shell/out/server-main.js:54:31452
+    at async Bl.scanUserExtensions (file:///google/devshell/editor/code-oss-for-cloud-shell/out/server-main.js:54:29171)
+    at async Promise.all (index 1)
+    at async Bl.scanAllExtensions (file:///google/devshell/editor/code-oss-for-cloud-shell/out/server-main.js:54:28417)
+    at async Cf.scanExtensions (file:///google/devshell/editor/code-oss-for-cloud-shell/out/server-main.js:55:20132)
+    at async file:///google/devshell/editor/code-oss-for-cloud-shell/out/server-main.js:54:6809
+    at async Promise.all (index 0)
+    at async Nl.L (file:///google/devshell/editor/code-oss-for-cloud-shell/out/server-main.js:54:6469)
+    at async Nl.installGalleryExtensions (file:///google/devshell/editor/code-oss-for-cloud-shell/out/server-main.js:54:3142)
+    at async Nl.installFromGallery (file:///google/devshell/editor/code-oss-for-cloud-shell/out/server-main.js:54:2390)
+2025-09-16 14:52:19.860 [error] Error while preparing to install dependencies and extension packs of the extension: ritwickdey.liveserver
+2025-09-16 14:54:08.139 [info] Installing extension: ritwickdey.liveserver {"installGivenVersion":true,"isApplicationScoped":false,"profileLocation":{"$mid":1,"fsPath":"/home/rahultammu71/.codeoss/extensions/extensions.json","external":"file:///home/rahultammu71/.codeoss/extensions/extensions.json","path":"/home/rahultammu71/.codeoss/extensions/extensions.json","scheme":"file"},"productVersion":{"version":"1.101.2-cde","date":"2025-09-07T07:12:07.372Z"}}
+2025-09-16 14:54:08.141 [info] Started initializing default profile extensions in extensions installation folder. file:///home/rahultammu71/.codeoss/extensions
+2025-09-16 14:54:08.169 [error] Error: Unable to resolve nonexistent file '/home/rahultammu71/.codeoss/extensions'
+    at Ll.resolve (file:///google/devshell/editor/code-oss-for-cloud-shell/out/server-main.js:64:12292)
+    at async Pl.r (file:///google/devshell/editor/code-oss-for-cloud-shell/out/server-main.js:54:36578)
+    at async Bl.scanAllUserExtensions (file:///google/devshell/editor/code-oss-for-cloud-shell/out/server-main.js:54:29510)
+    at async file:///google/devshell/editor/code-oss-for-cloud-shell/out/server-main.js:54:31452
+    at async Bl.scanUserExtensions (file:///google/devshell/editor/code-oss-for-cloud-shell/out/server-main.js:54:29171)
+    at async Promise.all (index 1)
+    at async Bl.scanAllExtensions (file:///google/devshell/editor/code-oss-for-cloud-shell/out/server-main.js:54:28417)
+    at async Cf.scanExtensions (file:///google/devshell/editor/code-oss-for-cloud-shell/out/server-main.js:55:20132)
+    at async file:///google/devshell/editor/code-oss-for-cloud-shell/out/server-main.js:54:6809
+    at async Promise.all (index 0)
+    at async Nl.L (file:///google/devshell/editor/code-oss-for-cloud-shell/out/server-main.js:54:6469)
+    at async Nl.install (file:///google/devshell/editor/code-oss-for-cloud-shell/out/server-main.js:55:12366)
+2025-09-16 14:54:08.173 [info] Started initializing default profile extensions in extensions installation folder. file:///home/rahultammu71/.codeoss/extensions
+2025-09-16 14:54:08.174 [error] Error: Unable to resolve nonexistent file '/home/rahultammu71/.codeoss/extensions'
+    at Ll.resolve (file:///google/devshell/editor/code-oss-for-cloud-shell/out/server-main.js:64:12292)
+    at async Pl.r (file:///google/devshell/editor/code-oss-for-cloud-shell/out/server-main.js:54:36578)
+    at async Bl.scanAllUserExtensions (file:///google/devshell/editor/code-oss-for-cloud-shell/out/server-main.js:54:29510)
+    at async file:///google/devshell/editor/code-oss-for-cloud-shell/out/server-main.js:54:31452
+    at async Bl.scanUserExtensions (file:///google/devshell/editor/code-oss-for-cloud-shell/out/server-main.js:54:29171)
+    at async Cf.scanExtensions (file:///google/devshell/editor/code-oss-for-cloud-shell/out/server-main.js:55:20268)
+    at async _f.h (file:///google/devshell/editor/code-oss-for-cloud-shell/out/server-main.js:55:28951)
+2025-09-16 14:54:08.175 [error] Error while installing the extension ritwickdey.liveserver Unable to read file '/home/rahultammu71/.codeoss/extensions/extensions.json' (Error: Unable to resolve nonexistent file '/home/rahultammu71/.codeoss/extensions/extensions.json') file:///home/rahultammu71/.codeoss/extensions/extensions.json
+2025-09-16 14:54:25.411 [info] Started initializing default profile extensions in extensions installation folder. file:///home/rahultammu71/.codeoss/extensions
+2025-09-16 14:54:25.443 [error] Error: Unable to resolve nonexistent file '/home/rahultammu71/.codeoss/extensions'
+    at Ll.resolve (file:///google/devshell/editor/code-oss-for-cloud-shell/out/server-main.js:64:12292)
+    at async Pl.r (file:///google/devshell/editor/code-oss-for-cloud-shell/out/server-main.js:54:36578)
+    at async Bl.scanAllUserExtensions (file:///google/devshell/editor/code-oss-for-cloud-shell/out/server-main.js:54:29510)
+    at async file:///google/devshell/editor/code-oss-for-cloud-shell/out/server-main.js:54:31452
+    at async Bl.scanUserExtensions (file:///google/devshell/editor/code-oss-for-cloud-shell/out/server-main.js:54:29171)
+    at async Promise.all (index 1)
+    at async Bl.scanAllExtensions (file:///google/devshell/editor/code-oss-for-cloud-shell/out/server-main.js:54:28417)
+    at async Cf.scanExtensions (file:///google/devshell/editor/code-oss-for-cloud-shell/out/server-main.js:55:20132)
+    at async Sx.call (file:///google/devshell/editor/code-oss-for-cloud-shell/out/server-main.js:71:56454)
+2025-09-16 14:54:25.454 [info] Started initializing default profile extensions in extensions installation folder. file:///home/rahultammu71/.codeoss/extensions
+2025-09-16 14:54:25.455 [error] Error: Unable to resolve nonexistent file '/home/rahultammu71/.codeoss/extensions'
+    at Ll.resolve (file:///google/devshell/editor/code-oss-for-cloud-shell/out/server-main.js:64:12292)
+    at async Pl.r (file:///google/devshell/editor/code-oss-for-cloud-shell/out/server-main.js:54:36578)
+    at async Bl.scanAllUserExtensions (file:///google/devshell/editor/code-oss-for-cloud-shell/out/server-main.js:54:29510)
+    at async file:///google/devshell/editor/code-oss-for-cloud-shell/out/server-main.js:54:31452
+    at async Bl.scanUserExtensions (file:///google/devshell/editor/code-oss-for-cloud-shell/out/server-main.js:54:29171)
+    at async Cf.scanExtensions (file:///google/devshell/editor/code-oss-for-cloud-shell/out/server-main.js:55:20268)
+    at async Sx.call (file:///google/devshell/editor/code-oss-for-cloud-shell/out/server-main.js:71:56454)
+2025-09-16 14:55:41.154 [info] [127.0.0.1][60b9ee33][ManagementConnection] The reconnection short grace time of 5m has expired, so the connection will be disposed.
+2025-09-16 14:55:41.355 [info] [127.0.0.1][29c2e602][ExtensionHostConnection] <2490> Extension Host Process exited with code: 0, signal: null.

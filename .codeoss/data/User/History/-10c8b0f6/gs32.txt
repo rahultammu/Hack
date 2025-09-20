@@ -1,0 +1,5 @@
+flask
+PyPDF2
+moviepy
+google-cloud-storage
+google-cloud-speech
