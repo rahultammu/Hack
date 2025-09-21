@@ -1,0 +1,19 @@
+{
+  "dependencies": {
+    "@tanstack/react-query": "^5.89.0",
+    "@vitejs/plugin-react-swc": "^4.1.0",
+    "react-router-dom": "^7.9.1",
+    "tailwindcss-animate": "^1.0.7",
+    "vite": "^7.1.6"
+  },
+  "devDependencies": {
+    "@types/node": "^24.5.2",
+    "@types/react": "^19.1.13",
+    "@types/react-dom": "^19.1.9",
+    "@types/react-router-dom": "^5.3.3",
+    "autoprefixer": "^10.4.21",
+    "postcss": "^8.5.6",
+    "tailwindcss": "^4.1.13",
+    "typescript": "^5.9.2"
+  }
+}

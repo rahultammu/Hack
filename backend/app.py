@@ -1,17 +1,32 @@
 import os
-from flask import Flask, request, jsonify, render_template
+from flask import Flask, request, jsonify, render_template, send_from_directory
 from flask_cors import CORS
+import tempfile
 from werkzeug.utils import secure_filename
 from google.cloud import storage
 from PyPDF2 import PdfReader
 import speech_recognition as sr
+from functools import wraps
 
 # Flask app
-app = Flask(__name__, template_folder=".")
-CORS(app)
+app = Flask(
+    __name__,
+    static_folder="../Frontend/dist",
+    static_url_path="/",
+    template_folder="../Frontend/dist"
+)
+cors = CORS(app, resources={r"/api/*": {"origins": "*"}})
+
+# --- API Endpoints ---
+# Define an API endpoint
+@app.route("/api/data")
+def get_data():
+    """This endpoint returns a simple JSON response."""
+    data = {"message": "Hello from your Python backend!"}
+    return jsonify(data)
 
 # Google Cloud Storage bucket name
-BUCKET_NAME = "startup-eval-files-rahul-123"
+BUCKET_NAME = os.environ.get("GCS_BUCKET_NAME", "startup-eval-files-rahul-123")
 
 # Upload file to GCS
 def upload_to_gcs(file_obj, filename, folder="pitch_decks"):
@@ -38,32 +53,24 @@ def extract_text_from_pdf(file_obj):
 # Extract text from audio
 def extract_text_from_audio(file_obj, filename):
     file_obj.seek(0)
-    temp_path = f"/tmp/{secure_filename(filename)}"
-
-    # Save temporarily
-    with open(temp_path, "wb") as f:
-        f.write(file_obj.read())
-
-    recognizer = sr.Recognizer()
-    with sr.AudioFile(temp_path) as source:
-        audio = recognizer.record(source)
-    try:
-        text = recognizer.recognize_google(audio)
-    except Exception:
-        text = ""
-
-    if os.path.exists(temp_path):
-        os.remove(temp_path)
-
+    text = ""
+    # Use a temporary file to avoid race conditions
+    with tempfile.NamedTemporaryFile(delete=True, suffix=secure_filename(filename)) as temp_file:
+        temp_file.write(file_obj.read())
+        temp_file.seek(0)
+        
+        recognizer = sr.Recognizer()
+        with sr.AudioFile(temp_file.name) as source:
+            audio = recognizer.record(source)
+        try:
+            text = recognizer.recognize_google(audio)
+        except (sr.UnknownValueError, sr.RequestError):
+            # Handle cases where speech is unintelligible or the service is down
+            text = ""
     return text
 
-# Homepage → serve index.html
-@app.route("/")
-def index():
-    return render_template("index.html")
-
 # Upload endpoint
-@app.route("/upload", methods=["POST"])
+@app.route("/api/upload", methods=["POST"])
 def upload_file():
     if "file" not in request.files:
         return jsonify({"error": "No file uploaded"}), 400
@@ -73,23 +80,35 @@ def upload_file():
 
     filename = secure_filename(file.filename)
 
-    # Upload to GCS
-    gcs_url = upload_to_gcs(file, filename)
+    # Use a temporary file to avoid reading the file into memory multiple times
+    with tempfile.NamedTemporaryFile(delete=True) as temp_file:
+        file.save(temp_file.name)
+        temp_file.seek(0)
 
-    # Extract text
-    text = ""
-    if filename.lower().endswith(".pdf"):
-        text = extract_text_from_pdf(file)
-    elif filename.lower().endswith((".wav", ".mp3")):
-        text = extract_text_from_audio(file, filename)
-    else:
-        text = "File type not supported for text extraction."
+        # 1. Upload to GCS from the temporary file
+        gcs_url = upload_to_gcs(temp_file, filename)
+
+        # 2. Extract text from the temporary file
+        text = ""
+        if filename.lower().endswith(".pdf"):
+            text = extract_text_from_pdf(temp_file)
+        elif filename.lower().endswith((".wav", ".mp3")):
+            text = extract_text_from_audio(temp_file, filename)
+        else:
+            text = "File type not supported for text extraction."
 
     return jsonify({
         "message": "File uploaded and processed",
         "file_url": gcs_url,
         "extracted_text": text
     })
+
+# --- Frontend Serving ---
+# Serve React App
+@app.route("/", defaults={"path": ""})
+@app.route("/<path:path>")
+def serve(path):
+    return send_from_directory(app.static_folder, "index.html")
 
 if __name__ == "__main__":
     # IMPORTANT: listen on 0.0.0.0 so Cloud Shell Web Preview can access it
